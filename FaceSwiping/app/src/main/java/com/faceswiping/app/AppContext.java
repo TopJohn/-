@@ -300,7 +300,7 @@ public class AppContext extends BaseApplication {
             {
 
                 setProperty("user.token", user.getToken());
-
+                setProperty("user.secret", user.getSecret() + "");
                 // ApiHttpClient.getHttpClient().setBasicAuth(getProperty("user.token"), null);
 
                 ApiHttpClient.getHttpClient().addHeader("X-AUTH-TOKEN", user.getToken());
@@ -363,6 +363,9 @@ public class AppContext extends BaseApplication {
         user.setToken(getProperty("user.token"));
         user.setId(StringUtils.toInt(getProperty("user.uid"), 0));
         user.setNickName(getProperty("user.name"));
+        if (getProperty("user.secret") != null) {
+            user.setSecret(Integer.parseInt(getProperty("user.secret")));
+        }
         //user.setFace_photo(getProperty("user.face"));
         //user.setPhone(getProperty("user.phone"));
         // user.setApart_name(getProperty("user.apart_name"));

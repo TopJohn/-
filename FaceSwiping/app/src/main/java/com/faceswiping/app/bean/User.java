@@ -19,9 +19,11 @@ public class User implements Serializable {
 
     private String introduction;
 
+    //0为开启，1是已开启
     private int secret;
 
     private String token;
+
 
     public String getToken() {
         return token;

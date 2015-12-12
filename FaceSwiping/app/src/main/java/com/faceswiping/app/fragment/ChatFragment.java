@@ -1,15 +1,21 @@
 package com.faceswiping.app.fragment;
 
 
+import android.app.Activity;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.ActionBar;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.faceswiping.app.R;
+import com.faceswiping.app.activity.MainActivity;
 import com.faceswiping.app.adapter.ChatAdapter;
 import com.faceswiping.app.base.BaseFragment;
 import com.faceswiping.app.bean.ChatBean;
@@ -86,6 +92,41 @@ public class ChatFragment extends BaseFragment {
             .bitmapConfig(Bitmap.Config.RGB_565)
             .imageScaleType(ImageScaleType.EXACTLY)
             .build();
+
+
+    private MainActivity mainActivity;
+
+    private ActionBar actionBar;
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        mainActivity = (MainActivity) activity;
+        actionBar = mainActivity.getSupportActionBar();
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
+
+
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        actionBar.show();
+        actionBar.setDisplayHomeAsUpEnabled(false);
+        actionBar.setHomeAsUpIndicator(null);
+
+        actionBar.setDisplayShowCustomEnabled(true);
+        actionBar.setCustomView(R.layout.actionbar_custom_view);
+        View view = actionBar.getCustomView();
+        TextView textView = (TextView) view.findViewById(R.id.actionbar_title);
+        textView.setText("聊天");
+
+        super.onCreateOptionsMenu(menu, inflater);
+    }
 
 
     @Override

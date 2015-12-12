@@ -14,10 +14,21 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.faceswiping.app.AppContext;
 import com.faceswiping.app.R;
 import com.faceswiping.app.activity.MainActivity;
+import com.faceswiping.app.api.remote.FaceSwipingApi;
 import com.faceswiping.app.base.BaseFragment;
+import com.faceswiping.app.bean.Result;
+import com.faceswiping.app.bean.User;
+import com.faceswiping.app.util.TDevice;
 import com.faceswiping.app.util.UIHelper;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.nostra13.universalimageloader.core.ImageLoader;
+
+import org.apache.http.Header;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
@@ -56,11 +67,55 @@ public class MeFragment extends BaseFragment {
 
     private ActionBar actionBar;
 
+    private User user;
+
+    private AsyncHttpResponseHandler handler = new AsyncHttpResponseHandler() {
+        @Override
+        public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
+
+            hideWaitDialog();
+
+            try {
+
+                String response = new String(responseBody);
+
+                Result<User> result = new Gson().fromJson(response, new TypeToken<User>() {
+                }.getType());
+
+                if (result.getErrorcode() == 0) {
+
+                    user = result.getData();
+                    fillUI();
+
+
+                } else {
+
+                    AppContext.showToastShort(result.getErrormsg());
+
+                }
+
+
+            } catch (Exception e) {
+                e.printStackTrace();
+                onFailure(statusCode, headers, responseBody, e);
+            }
+
+        }
+
+        @Override
+        public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
+
+            AppContext.showToastShort("获取用户信息失败～！");
+
+        }
+    };
+
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
         mainActivity = (MainActivity) activity;
         actionBar = mainActivity.getSupportActionBar();
+
     }
 
     @Override
@@ -68,12 +123,12 @@ public class MeFragment extends BaseFragment {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
 
-
     }
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-
+        actionBar.hide();
+        actionBar.setShowHideAnimationEnabled(false);
         actionBar.setDisplayHomeAsUpEnabled(false);
         actionBar.setHomeAsUpIndicator(null);
 
@@ -116,7 +171,7 @@ public class MeFragment extends BaseFragment {
 
     @Override
     public void initData() {
-
+        sendRequestData();
     }
 
     @Override
@@ -140,4 +195,30 @@ public class MeFragment extends BaseFragment {
 
 
     }
+
+    private void sendRequestData() {
+
+
+        if (TDevice.hasInternet()) {
+
+            FaceSwipingApi.getFriends(handler);
+
+        } else {
+
+            AppContext.showToastShort(R.string.tip_no_internet);
+
+        }
+
+
+    }
+
+    private void fillUI() {
+
+        ImageLoader.getInstance().displayImage(user.getHeadImageUrl(), userImage, ChatFragment.optionsImage);
+        userName.setText(user.getNickName());
+        userDescribe.setText(user.getIntroduction());
+
+
+    }
+
 }

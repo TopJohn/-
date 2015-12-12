@@ -59,7 +59,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
-                android:background="@drawable/newFriends_listitem_buttonshape_receive"
+                android:background="@drawable/newfriends_listitem_buttonshape_receive"
                 android:text="接受"
                 android:textColor="#F28471"/>
 

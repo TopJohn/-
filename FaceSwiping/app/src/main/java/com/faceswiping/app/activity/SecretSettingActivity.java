@@ -65,7 +65,7 @@ public class SecretSettingActivity extends BaseActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        if (AppContext.get(AppConfig.KEY_DOUBLE_CLICK_EXIT, false)) {
+        if (AppContext.get(AppConfig.KEY_FACE_SWIPING_OPEN, false)) {
             openStateTextView.setText("已开通");
         } else {
             openStateTextView.setText("未开通");

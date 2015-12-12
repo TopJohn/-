@@ -1,20 +1,73 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.faceswiping.app.fragment.FriendFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <GridView
-        android:id="@+id/fragment_gridView"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/black"
-        android:gravity="center"
-        android:horizontalSpacing="@dimen/pickimage_gridlist_item_space"
-        android:numColumns="3"
-        android:padding="@dimen/pickimage_gridlist_item_space"
-        android:stretchMode="columnWidth"
-        android:verticalSpacing="@dimen/pickimage_gridlist_item_space" />
+        android:layout_height="44dp"
+        android:background="#E7E7EF"
+        android:orientation="horizontal">
 
-</FrameLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/search_view"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/search" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="搜索"
+                    android:textColor="@color/gray_text_color"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridView
+            android:id="@+id/fragment_gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:horizontalSpacing="@dimen/pickimage_gridlist_item_space"
+            android:numColumns="3"
+            android:padding="@dimen/pickimage_gridlist_item_space"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="@dimen/pickimage_gridlist_item_space" />
+
+        <com.faceswiping.app.widget.EmptyLayout
+            android:id="@+id/error_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

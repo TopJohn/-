@@ -36,6 +36,8 @@ public class AppConfig {
     public static final String KEY_TWEET_DRAFT = "KEY_TWEET_DRAFT";
     public static final String KEY_NOTE_DRAFT = "KEY_NOTE_DRAFT";
 
+    public static final String KEY_FACE_SWIPING_OPEN = "KEY_FACE_SWIPING_OPEN";
+
     public static final String KEY_FRITST_START = "KEY_FRIST_START";
 
     public static final String KEY_NIGHT_MODE_SWITCH="night_mode_switch";
