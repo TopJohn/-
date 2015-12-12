@@ -7,7 +7,7 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Build;
 import android.os.Looper;
 
-import com.inyouzi.app.util.UIHelper;
+import com.faceswiping.app.util.UIHelper;
 
 import org.apache.http.HttpException;
 import org.kymjs.kjframe.utils.FileUtils;

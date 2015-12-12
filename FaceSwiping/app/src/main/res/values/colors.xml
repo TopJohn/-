@@ -19,6 +19,8 @@
     <color name="lightblue">#0083FF</color>
     <color name="stand_bg">#fff6f6f6</color>
     <color name="camera_background">#ff353535</color>｀
+    <color name="font_white_disable">#7fffffff</color>
+
 
     <color name="dark_background">#F5F5F5</color>
     <color name="black_background">#323232</color>

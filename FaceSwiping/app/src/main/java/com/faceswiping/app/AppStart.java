@@ -14,10 +14,7 @@ import com.faceswiping.app.activity.MainActivity;
 import com.faceswiping.app.interf.BaseViewInterface;
 import com.faceswiping.app.util.TDevice;
 import com.faceswiping.app.util.UIHelper;
-import com.google.gson.Gson;
-import com.loopj.android.http.AsyncHttpResponseHandler;
 
-import org.apache.http.Header;
 import org.kymjs.kjframe.utils.PreferenceHelper;
 
 /**
@@ -31,37 +28,37 @@ public class AppStart extends Activity implements BaseViewInterface {
     private ImageView icon1;
     private ImageView icon2;
 
-    private AsyncHttpResponseHandler handler = new AsyncHttpResponseHandler() {
-        @Override
-        public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
-
-            String response = new String(responseBody);
-
-            try {
-
-                Result<String> result = new Gson().fromJson(response, new TypeToken<Result<String>>() {
-                }.getType());
-
-                if (result.getStatus().equals("ok")) {
-
-                    AppContext.getInstance().updateToken(result.getData());
-                   // AppContext.showToastShort("更新Token成功～！");
-                }
-
-            } catch (Exception e) {
-                e.printStackTrace();
-                onFailure(statusCode, headers, responseBody, e);
-            }
-
-        }
-
-        @Override
-        public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
-
-        }
-
-
-    };
+//    private AsyncHttpResponseHandler handler = new AsyncHttpResponseHandler() {
+//        @Override
+//        public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
+//
+//            String response = new String(responseBody);
+//
+//            try {
+//
+//                Result<String> result = new Gson().fromJson(response, new TypeToken<Result<String>>() {
+//                }.getType());
+//
+//                if (result.getStatus().equals("ok")) {
+//
+//                    AppContext.getInstance().updateToken(result.getData());
+//                   // AppContext.showToastShort("更新Token成功～！");
+//                }
+//
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//                onFailure(statusCode, headers, responseBody, e);
+//            }
+//
+//        }
+//
+//        @Override
+//        public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
+//
+//        }
+//
+//
+//    };
 
 
     @Override
@@ -91,7 +88,7 @@ public class AppStart extends Activity implements BaseViewInterface {
             PreferenceHelper.write(this, "first_install", "first_install",
                     currentVersion);
             //清空图片缓存
-           // cleanImageCache();
+            // cleanImageCache();
         }
     }
 
@@ -116,35 +113,23 @@ public class AppStart extends Activity implements BaseViewInterface {
      * 跳转到...
      */
     private void redirectTo() {
-        // Intent uploadLog = new Intent(this, LogUploadService.class);
-        // startService(uploadLog);
-        if (AppContext.isFristStart()) {
-            //引导界面
-            //UIHelper.showAddGuestActivity(this);
-            UIHelper.showSplashActivity(this);
+
+
+        if (AppContext.getInstance().isLogin()) {
+
+            //FaceSwipingApi.updateToken(handler);
+
+            UIHelper.showMainActivity(this);
             finish();
-
-            //UIHelper.showMainActivity(this);
-            //finish();
-
         } else {
-            //之后启动
-
-            if (AppContext.getInstance().isLogin()) {
-
-                //FaceSwipingApi.updateToken(handler);
-
-                UIHelper.showMainActivity(this);
-                finish();
-            } else {
-                //跳到登录界面
-                UIHelper.showLoginActivity(this);
-                finish();
+            //跳到登录界面
+            UIHelper.showLoginActivity(this);
+            finish();
 //                UIHelper.showMainActivity(this);
 //                finish();
 
-            }
         }
+
     }
 
 

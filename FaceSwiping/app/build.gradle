@@ -25,6 +25,11 @@ android {
     }
 }
 
+repositories {
+    mavenCentral()
+}
+
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
@@ -40,5 +45,6 @@ dependencies {
     compile 'com.android.support:support-v4:22.2.1'
     compile 'com.google.code.gson:gson:2.4'
     compile 'com.alibaba:fastjson:1.1.45.android'
+    compile 'com.makeramen:roundedimageview:2.2.1'
 
 }

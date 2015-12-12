@@ -2,7 +2,7 @@ package com.faceswiping.app.cache;
 
 import android.content.Context;
 
-import com.inyouzi.app.util.TDevice;
+import com.faceswiping.app.util.TDevice;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -40,7 +40,6 @@ import static com.faceswiping.app.AppConfig.KEY_NIGHT_MODE_SWITCH;
 import static com.faceswiping.app.AppConfig.KEY_TWEET_DRAFT;
 
 
-
 /**
  * 全局应用程序类：用于保存和调用全局应用配置及访问网络数据
  *
@@ -302,12 +301,14 @@ public class AppContext extends BaseApplication {
 
                 setProperty("user.token", user.getToken());
 
-                ApiHttpClient.getHttpClient().setBasicAuth(getProperty("user.token"), null);
+                // ApiHttpClient.getHttpClient().setBasicAuth(getProperty("user.token"), null);
+
+                ApiHttpClient.getHttpClient().addHeader("X-AUTH-TOKEN", user.getToken());
 
                 setProperty("user.uid", String.valueOf(user.getId()));
 
-                if (user.getName() != null)
-                    setProperty("user.name", user.getName());
+                if (user.getNickName() != null)
+                    setProperty("user.name", user.getNickName());
 
                 // setProperty("user.face", user.getFace_photo());// 用户头像-文件名
                 //setProperty("user.phone", user.getPhone());
@@ -337,14 +338,14 @@ public class AppContext extends BaseApplication {
     public void updateUserInfo(final User user) {
         setProperties(new Properties() {
             {
-                if (user.getName() != null)
-                    setProperty("user.name", user.getName());
-                if (user.getFace_photo() != null)
-                    setProperty("user.face", user.getFace_photo());// 用户头像-文件名
-                if (user.getPhone() != null)
-                    setProperty("user.phone", user.getPhone());
-                if (user.getApart_name() != null)
-                    setProperty("user.apart_name", user.getApart_name());
+                if (user.getNickName() != null)
+                    setProperty("user.name", user.getNickName());
+//                if (user.getFace_photo() != null)
+//                    setProperty("user.face", user.getFace_photo());// 用户头像-文件名
+//                if (user.getPhone() != null)
+//                    setProperty("user.phone", user.getPhone());
+//                if (user.getApart_name() != null)
+//                    setProperty("user.apart_name", user.getApart_name());
 //                setProperty("user.favoritecount",
 //                        String.valueOf(user.getFavoritecount()));
 //                setProperty("user.gender", String.valueOf(user.getGender()));
@@ -361,10 +362,10 @@ public class AppContext extends BaseApplication {
         User user = new User();
         user.setToken(getProperty("user.token"));
         user.setId(StringUtils.toInt(getProperty("user.uid"), 0));
-        user.setName(getProperty("user.name"));
-        user.setFace_photo(getProperty("user.face"));
-        user.setPhone(getProperty("user.phone"));
-        user.setApart_name(getProperty("user.apart_name"));
+        user.setNickName(getProperty("user.name"));
+        //user.setFace_photo(getProperty("user.face"));
+        //user.setPhone(getProperty("user.phone"));
+        // user.setApart_name(getProperty("user.apart_name"));
 
 //        user.setFollowers(StringUtils.toInt(getProperty("user.followers"), 0));
 //        user.setFans(StringUtils.toInt(getProperty("user.fans"), 0));

@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7fb89298-3364-4d52-9eef-25036900a1d8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/action_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/actionbar_icon_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/actionbar_icon_switch_issue_state.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/actionbar_more_icon_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/actionbar_search_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/actionbar_send_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/actionbar_unsend_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/alien.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/angel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/anger.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/angry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/anguished.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/astonished.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/audio0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/audio1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/audio2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/audio3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/baby.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/baby_chick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/bear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/beetle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/bg_edittext_nor.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/bg_edittext_sel.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/bird.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/biz_chat_comment_send.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/biz_chat_comment_send.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/biz_chat_comment_send_prs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/biz_chat_comment_send_prs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/blossom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/blowfish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-mdpi/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/blue_heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/blush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/boar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/boom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/bouquet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/bow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/bowtie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/boy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/bride_with_veil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/broken_heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/btn_blue_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/btn_blue_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/btn_clear_input_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/btn_clear_input_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/btn_del.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/btn_del_nor.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/btn_del_press.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/btn_emoji.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/btn_emoji_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/btn_emoji_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/btn_emoji_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/btn_item_opt_more_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/btn_item_opt_more_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/btn_opt_text_to_tools_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/btn_opt_text_to_tools_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/btn_opt_tools_to_text_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/btn_opt_tools_to_text_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/btn_radio_off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/btn_radio_on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/btn_small_green_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/btn_small_green_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/btn_small_white_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/btn_small_white_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/btn_white_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/btn_white_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/bug.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/bust_in_silhouette.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/busts_in_silhouette.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/cactus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/camel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/cat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/cat2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/chat_from_bg_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/chat_from_bg_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/chat_to_bg_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/chat_to_bg_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/cherry_blossom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/chestnut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/chicken.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/clap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/cloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/cold_sweat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/collision.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/comment_edittext_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/comment_edittext_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/comment_line_triangle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/comment_refer_container_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/compose_clearbutton_background.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/compose_clearbutton_background_press.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/compose_toolbar_emoji_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/compose_toolbar_emoji_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/compose_toolbar_keyboard_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/compose_toolbar_keyboard_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/compose_toolbar_mention_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/compose_toolbar_mention_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/compose_toolbar_picture_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/compose_toolbar_picture_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/compose_toolbar_trend_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/compose_toolbar_trend_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/confounded.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/confused.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/construction_worker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/cop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/couple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/couple_with_heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/couplekiss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/cow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/cow2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/crocodile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/cry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/crying_cat_face.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/cupid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/cyclone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/dancer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/dancers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/dash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/day_comment_reply_container_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/deciduous_tree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/detail_map_guide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/dialog_background.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/dialog_bottom_background.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/disappointed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/disappointed_relieved.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/dizzy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/dizzy_face.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/dog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/dog2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/dolphin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/dragon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/dragon_face.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/drawer_menu_icon_blog_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/drawer_menu_icon_gitapp_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/drawer_menu_icon_night_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/drawer_menu_icon_opensoft_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/drawer_menu_icon_quest_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/drawer_menu_icon_setting_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/drawer_shadow.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-mdpi/drawer_shadow.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/drawer_shadow.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xxhdpi/drawer_shadow.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/dromedary_camel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/droplet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ear_of_rice.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/earth_africa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/earth_americas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/earth_asia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/edit_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/edit_select.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/elephant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/evergreen_tree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/exclamation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/expressionless.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/eyes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/facepunch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/fallen_leaf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/family.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/fearful.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/feelsgood.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/feet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/finnadie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/fire.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/first_quarter_moon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/first_quarter_moon_with_face.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/fish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/fist.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/flash_default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/flash_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/flushed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/foggy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/four_leaf_clover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/frog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/frowning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/fu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/full_moon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/full_moon_with_face.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/girl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/globe_with_meridians.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/goat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/goberserk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/godmode.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-mdpi/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/green_heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/grey_exclamation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/grey_question.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/grimacing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/grin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/grinning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/guardsman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/haircut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/hamster.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/hand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/hankey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/hatched_chick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/hatching_chick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/head.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/hear_no_evil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/heart_eyes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/heart_eyes_cat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/heartbeat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/heartpulse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/herb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/hibiscus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/honeybee.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/horse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/hurtrealbad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/hushed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/ic_action_favor_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/ic_action_favor_on_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/ic_action_favor_on_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/ic_action_favor_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/ic_action_report_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/ic_action_report_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/ic_action_repost_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/ic_action_repost_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/ic_action_write_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/ic_action_write_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_add_follow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_axis_line.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_brows_back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_brows_forward.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_brows_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xxhdpi/ic_brows_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/ic_brows_share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_brows_systembrowser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_clear_image_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_clear_image_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_diary_back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_diary_calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_diary_canback.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_diary_canforward.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_diary_forward.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_drawer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-mdpi/ic_drawer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/ic_drawer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xxhdpi/ic_drawer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_follow_each_other.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_followed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_item_goto_right_tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_note_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_notification.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_private_message.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ic_week.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_call.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-mdpi/icon_color.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/icon_download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/icon_event_status_attend.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/icon_event_status_checked.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/icon_event_status_over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_explore_event.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_explore_finduser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_explore_friends.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_explore_samecity.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_explore_scan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_explore_shake.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_gcoding.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_loginout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_my_blog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_my_message.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_my_note.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_my_team.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_pic_menu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_qr_code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_record.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_record1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_record2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_record_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_record_layout_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_record_layout_sel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_record_listen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_record_play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-mdpi/icon_save.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/icon_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/image_sliding_block.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/imp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/information_desk_person.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/innocent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/japanese_goblin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/japanese_ogre.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/joy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/joy_cat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/kiss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/kissing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/kissing_cat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/kissing_closed_eyes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/kissing_heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/kissing_smiling_eyes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/koala.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/last_quarter_moon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/last_quarter_moon_with_face.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/laughing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/leaves.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/leopard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/libs/library-2.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/line.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/lips.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/loading.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/love_letter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/man.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/man_with_gua_pi_mao.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/man_with_turban.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/maple_leaf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/mask.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/massage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/messages_left_bubble.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/messages_left_bubble_highlighted.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/metal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/milky_way.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/monkey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/monkey_face.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/moon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/mouse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/mouse2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/muscle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/mushroom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/musical_note.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/nail_care.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/neckbeard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/neutral_face.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/new_moon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/new_moon_with_face.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/night_chat_from_bg_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/night_comment_reply_container_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/night_image_sliding_block.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/no_good.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/no_mouth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/nose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/notes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/notification_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/raw/notificationsound.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ocean.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/octocat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/octopus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ok_hand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ok_woman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/older_man.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/older_woman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/open_hands.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/open_mouth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/page_icon_empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/page_icon_network.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/pagefailed_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/palm_tree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/panda_face.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/partly_sunny.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/paw_prints.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/penguin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/pensive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/persevere.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/person_frowning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/person_with_blond_hair.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/person_with_pouting_face.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/pig.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/pig2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/pig_nose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/platform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/plus1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/point_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/point_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/point_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/point_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/point_up_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/poodle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/poop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/pouting_cat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/pray.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/princess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/punch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-mdpi/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/purple_heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/qr_capture.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/raw/qr_sacn.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/qr_scan_line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/qr_scan_mask.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/question.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/quick_option_album_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/quick_option_album_over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/quick_option_note_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/quick_option_note_over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/quick_option_photo_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/quick_option_photo_over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/quick_option_scan_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/quick_option_scan_over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/quick_option_text_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/quick_option_text_over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/quick_option_voice_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/quick_option_voice_over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/rabbit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/rabbit2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/racehorse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/rage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/rage1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/rage2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/rage3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/rage4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/raised_hand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/raised_hands.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/raising_hand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/ram.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/rat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-mdpi/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/relaxed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/relieved.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/review_toolbar_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/review_toolbar_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/revolving_hearts.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/rooster.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/rose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/runner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/running.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/satisfied.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/scream.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/scream_cat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/see_no_evil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/seedling.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/shaking.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/share_icon_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/share_icon_copy_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/share_icon_more.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/share_icon_more_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/share_icon_qq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/share_icon_qq_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/share_icon_sinaweibo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/share_icon_sinaweibo_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/share_icon_wechat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/share_icon_wechat_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/share_icon_wechatfriends.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/share_icon_wechatfriends_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/sheep.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/shell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/shit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/skull.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/sleeping.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/sleepy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/sliding_tab_strip_background.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smile_cat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_101.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_102.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_103.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_104.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_26.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_27.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_28.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_29.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_30.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_31.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_33.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_34.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_35.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_36.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_37.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_38.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_39.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_41.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_42.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_43.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_44.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_45.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_46.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_47.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_49.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_50.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_51.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_52.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_53.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_54.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_55.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_56.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_57.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_58.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_59.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_61.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_62.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_63.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_64.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_65.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_66.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_67.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_68.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_69.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_70.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_71.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_73.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_74.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_75.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_77.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_78.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_79.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_80.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_81.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_82.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_83.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_84.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_85.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_86.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_87.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_88.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_89.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_90.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_91.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_92.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_93.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_94.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_95.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_96.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_97.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_98.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_99.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiley_cat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smiling_imp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smirk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/smirk_cat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/snail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/snake.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/snowflake.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/snowman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/sob.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/sparkles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/sparkling_heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/speak_no_evil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/speech_balloon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/spinner_48_inner_holo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/spinner_48_outer_holo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/spinner_ab_default_holo_dark_am.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/squirrel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/star2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/stuck_out_tongue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/stuck_out_tongue_closed_eyes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/stuck_out_tongue_winking_eye.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/sun_with_face.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/sunflower.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/sunglasses.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/sunny.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/suspect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/sweat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/sweat_drops.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/sweat_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/textfield_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/textfield_selected.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/the_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/thought_balloon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/thumbsdown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/thumbsup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/tiger.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/tiger2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/timeline_card_small_button.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/timeline_card_small_button_highlighted.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/timeline_card_small_placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/tired_face.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/toast_background.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/tongue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/triumph.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/trollface.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/tropical_fish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/tulip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/turtle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/two_hearts.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/two_men_holding_hands.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/two_women_holding_hands.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/umbrella.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/unamused.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/user_center_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/userinfo_icon_female.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/userinfo_icon_male.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/volcano.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/walking.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/waning_crescent_moon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/waning_gibbous_moon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/water_buffalo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/wave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/waxing_crescent_moon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/waxing_gibbous_moon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/weary.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/welcome.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/whale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/whale2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/widget_dface.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/widget_original_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/widget_repaste_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/widget_today_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-xhdpi/widget_today_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/wink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/wolf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/woman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/worried.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-mdpi/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/yellow_heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/yum.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/zap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable-hdpi/zzz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/activity_detail.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/activity_image_preview.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/activity_login.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/activity_main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/activity_qr_scan.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/activity_shake.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/activity_simple_fragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/activity_team_active_pub.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/activity_team_main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/activity_team_main_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/activity_team_new_issue.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/activity_toolbar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/activity_tweet_pub.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/anim/anim_bottom_in.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/anim/anim_bottom_out.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/app_network_interrupt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/app_start.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values/arrays.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values/attrs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/anim/audio_animations.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/base_viewpage_fragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/base_viewpage_fragment_tab_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/bg_edittext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/bg_notebook.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/bg_record_button.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/browser_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/btn_blue_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/btn_clear_input_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/btn_del_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/btn_emoji_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/btn_green_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/btn_item_opt_more_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/btn_opt_text_to_tools_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/btn_opt_tools_to_text_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/btn_oval_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/btn_quickoption_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/btn_radio_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/btn_send_comment_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/btn_small_green_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/btn_small_white_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/btn_white_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/chat_from_bg_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/chat_to_bg_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values/colors.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/comment_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/comment_edittext_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/common_detail_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/compose_clear_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/compose_toolbar_emoji_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/compose_toolbar_keyboard_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/compose_toolbar_mention_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/compose_toolbar_picture_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/compose_toolbar_trend_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/date_picker_dialog.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/date_picker_done_button.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/date_picker_header_view.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/date_picker_selected_date.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/color/date_picker_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/date_picker_view_animator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/color/date_picker_year_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/day_list_item_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/day_quickoption_icon_album_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/day_quickoption_icon_note_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/day_quickoption_icon_photo_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/day_quickoption_icon_scan_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/day_quickoption_icon_text_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/day_quickoption_icon_voice_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/dialog_common.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/dialog_cotent_share.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/anim/dialog_enter.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/dialog_event_apply.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/anim/dialog_exit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/dialog_image_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/dialog_list_cell_single_choice.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/dialog_my_qr_code.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/dialog_quick_option.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/dialog_record.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/dialog_report.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/dialog_wait.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values-w820dp/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/color/done_text_color.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/download_notification_show.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/drawer_menu_item_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/color/drawer_menu_text.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values/emoji_arrays.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/emoji_bottom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/emoji_content.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/emoji_title.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/emoji_toolbar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/event_spot_pupwindow.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values/font_awsome_string.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/anim/footer_menu_slide_in.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/anim/footer_menu_slide_out.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/frag_dynamic_detail.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/frag_keyboard.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/frag_main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_about.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_browser.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_detail_tool_bar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_emoji.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_event_detail.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_event_location.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_explore.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_feedback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_find_user.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_my_information.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_my_information_detail.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_my_information_head.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_navigation_drawer.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_navigation_drawer_foot.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_navigation_drawer_items.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_news_detail.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_note.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_note_detail.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_opensoftware.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_pull_refresh_listview.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_settings_notifcation.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_team_board.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_team_diary_detail.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_team_diarypager.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_team_discuss_detail.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_team_dynamic.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_team_issue_detail.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_team_member.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_team_selectteam.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_team_userinfo.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_team_userinfo_head.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_tweet_pub.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_user_center.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_user_center_header.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/fragment_user_center_information.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/gradle.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/gradlew.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/gradlew" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/ib_clear_image_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/ic_action_comment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/ic_action_favor.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/ic_action_report.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/ic_action_repost.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/ic_action_write.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values/ids.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/image_preview_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/anim/in_from_bottom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/anim/in_from_top.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/item_notebook.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/item_team_diarydetail_head.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/item_team_member.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/item_team_select.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/item_team_tweet_detail.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/item_tweet_pub_record.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/layout_note_detail_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values/layout_style.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_active.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_apply.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_chat_from.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_chat_to.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_comment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_dialog.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_diary_detail.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_emoji_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_event.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_favorite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_footer.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_friend.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_message.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_news.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_popup_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_post.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_reply_count.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_reply_name_content.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_shake_result.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_software.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_softwarecatalog.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_team.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_team_active.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_team_child_issue.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_team_diary.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_team_discuss.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_team_issue.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_team_issue_catalog.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_team_project.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_team_project_member.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_team_reply.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_team_reply_refers.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_tweet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_tweet_like.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_cell_tweet_like_user.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_head_commnt_line.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/list_header_tweet_detail.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/main_activity_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/messages_left_bubble_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/my_infomation_option_item_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/night_list_item_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/night_quickoption_icon_album_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/night_quickoption_icon_note_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/night_quickoption_icon_photo_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/night_quickoption_icon_scan_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/night_quickoption_icon_text_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/night_quickoption_icon_voice_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/notebook_edit_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/notebook_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/anim/out_to_bottom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/anim/out_to_top.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/pager_emoji.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/pager_item_diary.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/pic_bg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/popup_window_team_projects_select.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/color/primarybar_txt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/progress_medium_holo.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/progressloading.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/proguard-rules.pro" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/pub_new_team_active_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/pub_topic_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/pub_tweet_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/anim/quick_option_close.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/record_view.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/refresh_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/search_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/selector_keyboard.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/selector_record_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/selector_send.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/settings.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/share_icon_copy_link_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/share_icon_more_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/share_icon_qq_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/share_icon_sinaweibo_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/share_icon_wechat_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/share_icon_wechatfriends_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/socialize_titlebar_item_background_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/spinner_layout_head.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/submit_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/tab_icon_explore.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/tab_icon_me.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/tab_icon_new.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/tab_icon_tweet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/tab_indicator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values/team_arrays.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/team_issue_catalog_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/team_issue_detail_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/team_issue_lable.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/team_issue_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/team_issue_tag_bg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/team_main_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/team_new_issue_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/menu/team_project_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values/team_string.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/teamlist_item_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/textfield_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values/theme.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values/theme_attrs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values/theme_color.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/values/toggle_button_attrs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/drawable/touch_clear_bg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/view_base_toast.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/view_dialog_header.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/view_error_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/view_toast.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/color/viewpage_selector_slide_title.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faceSwiping/app/src/main/res/layout/year_label_text_view.xml" />
+    </list>
+    <ignored path="faceSwiping.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="faceSwiping" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1114" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faceSwiping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android API 15 Platform &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faceSwiping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faceSwiping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fb89298-3364-4d52-9eef-25036900a1d8" name="Default" comment="" />
+      <created>1449669763227</created>
+      <option name="number" value="Default" />
+      <updated>1449669763227</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="1114" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>faceSwiping</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

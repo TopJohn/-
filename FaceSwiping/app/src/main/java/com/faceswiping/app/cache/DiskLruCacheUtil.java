@@ -3,7 +3,7 @@ package com.faceswiping.app.cache;
 import android.content.Context;
 import android.os.Environment;
 
-import com.inyouzi.app.util.TDevice;
+import com.faceswiping.app.util.TDevice;
 
 import org.kymjs.kjframe.utils.FileUtils;
 
