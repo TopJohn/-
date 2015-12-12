@@ -60,12 +60,24 @@
         <activity
             android:name=".activity.LoginActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".activity.SecretSettingActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.FaceIdentificationActivity"
             android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.AddNewFriendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SendFriendRequestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.NewFriendsActivity"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

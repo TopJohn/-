@@ -5,9 +5,16 @@
     tools:context="com.faceswiping.app.fragment.FriendFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <GridView
+        android:id="@+id/fragment_gridView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/pickimage_gridlist_item_space"
+        android:numColumns="3"
+        android:padding="@dimen/pickimage_gridlist_item_space"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/pickimage_gridlist_item_space" />
 
 </FrameLayout>
