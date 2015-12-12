@@ -2,7 +2,8 @@
 <resources>
 
     <!-- day -->
-    <color name="day_colorPrimary">#40AA53</color>
+    <!--<color name="day_colorPrimary">#40AA53</color>-->
+    <color name="day_colorPrimary">#ac8bff</color>
     <color name="day_colorPrimaryDark">#0b751e</color>
     <color name="day_textColor">#333333</color>
     <color name="day_infoTextColor">#999999</color>
