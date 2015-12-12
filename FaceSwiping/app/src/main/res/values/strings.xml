@@ -810,4 +810,14 @@
 
     <!--secret identification -->
     <string name="secret_identification_actionBar_title">刷脸加好友</string>
+
+    <!--add new friend -->
+    <string name="add_newFriend_actionBar_title">添加好友</string>
+
+    <!-- friend request -->
+    <string name="friend_request_actionBar_title">好友验证</string>
+
+    <!-- new friends -->
+    <string name="new_friends_actionBar_title">新的朋友</string>
+
 </resources>

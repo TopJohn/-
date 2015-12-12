@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/new_friends_listItem_friendImage"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <LinearLayout
+            android:id="@+id/new_friends_listItem_friendInfoLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/new_friends_listItem_friendImage"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/new_friends_listItem_friendName"
+                android:text="judy"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/new_friends_listItem_friendInfo"
+                android:text="我是judy,希望认识你"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/new_friends_listItem_friendImage"/>
+
+            <TextView
+                android:id="@+id/new_friends_listItem_requestFrom"
+                android:text="来源:刷脸加好友"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/new_friends_listItem_friendReceiveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@drawable/newFriends_listitem_buttonshape_receive"
+                android:text="接受"
+                android:textColor="#F28471"/>
+
+            <TextView
+                android:id="@+id/new_friends_listItem_friendReceivedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="已添加"
+                android:visibility="gone"/>
+
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/new_friends_listItem_friendGroupPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+</LinearLayout>

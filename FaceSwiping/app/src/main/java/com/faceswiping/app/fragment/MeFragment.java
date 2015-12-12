@@ -44,11 +44,6 @@ public class MeFragment extends Fragment {
     @InjectView(R.id.fragment_me_mySecret)
     LinearLayout mySecret;
 
-    @InjectView(R.id.fragment_me_mySecret)
-    LinearLayout mySecret1;
-
-    @InjectView(R.id.fragment_me_mySecret)
-    LinearLayout mySecret2;
 
     public MeFragment() {
         // Required empty public constructor
