@@ -9,4 +9,5 @@
         android:id="@+id/new_friends_listView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></ListView>
+
 </RelativeLayout>

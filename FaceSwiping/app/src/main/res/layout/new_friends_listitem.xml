@@ -14,12 +14,14 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="20dp"
             android:layout_width="80dp"
-            android:layout_height="80dp" />
+            android:layout_height="80dp"
+            android:src="@drawable/header_4"/>
 
         <LinearLayout
             android:id="@+id/new_friends_listItem_friendInfoLayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/new_friends_listItem_receiveLayout"
             android:layout_marginLeft="20dp"
             android:layout_toRightOf="@id/new_friends_listItem_friendImage"
             android:layout_centerVertical="true"
@@ -28,6 +30,7 @@
             <TextView
                 android:id="@+id/new_friends_listItem_friendName"
                 android:text="judy"
+                android:singleLine="true"
                 android:layout_marginBottom="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
@@ -35,6 +38,7 @@
             <TextView
                 android:id="@+id/new_friends_listItem_friendInfo"
                 android:text="我是judy,希望认识你"
+                android:singleLine="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/new_friends_listItem_friendImage"/>
@@ -42,12 +46,14 @@
             <TextView
                 android:id="@+id/new_friends_listItem_requestFrom"
                 android:text="来源:刷脸加好友"
+                android:singleLine="true"
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
 
         <FrameLayout
+            android:id="@+id/new_friends_listItem_receiveLayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -59,12 +65,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
-                android:background="@drawable/newFriends_listitem_buttonshape_receive"
+                android:background="@drawable/newfriends_listitem_buttonshape_receive"
                 android:text="接受"
                 android:textColor="#F28471"/>
 
             <TextView
-                android:id="@+id/new_friends_listItem_friendReceivedButton"
+                android:id="@+id/new_friends_listItem_friendReceivedView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"

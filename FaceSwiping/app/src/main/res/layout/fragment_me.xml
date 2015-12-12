@@ -14,7 +14,7 @@
             android:id="@+id/fragment_me_topView"
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:background="@drawable/main_background">
+            android:background="@drawable/fragment_me_topbackground">
 
             <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/fragment_me_userImage"
@@ -39,7 +39,8 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
-                android:text="judy" />
+                android:text="judy"
+                android:textSize="18sp"/>
 
             <TextView
                 android:id="@+id/fragment_me_userDescribe"
@@ -76,7 +77,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="20dp"
-                    android:src="@drawable/my_wallet" />
+                    android:src="@drawable/fragment_me_myinfo" />
 
 
                 <TextView
@@ -115,7 +116,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="20dp"
-                    android:src="@drawable/my_discount" />
+                    android:src="@drawable/fragment_me_myphoto" />
 
 
                 <TextView
@@ -154,7 +155,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="20dp"
-                    android:src="@drawable/notification" />
+                    android:src="@drawable/fragment_me_myfile" />
 
 
                 <TextView
@@ -207,7 +208,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="20dp"
-                    android:src="@drawable/my_wallet" />
+                    android:src="@drawable/fragment_me_mysetting" />
 
 
                 <TextView
@@ -246,7 +247,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="20dp"
-                    android:src="@drawable/my_discount" />
+                    android:src="@drawable/fragment_me_mysecret" />
 
 
                 <TextView
