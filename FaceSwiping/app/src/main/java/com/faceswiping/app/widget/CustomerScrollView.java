@@ -18,7 +18,7 @@ import android.widget.ScrollView;
  */
 public class CustomerScrollView extends ScrollView {
 
-    //size=4 表示 拖动的距离为屏幕的高度的1/4
+    //size=a4 表示 拖动的距离为屏幕的高度的1/a4
     private static final int size = 4;
 
     //第一个子控件
@@ -90,7 +90,7 @@ public class CustomerScrollView extends ScrollView {
                 //现在的Y
                 float nowY = ev.getY();
                 /**
-                 * size=4 表示 拖动的距离为屏幕的高度的1/4
+                 * size=a4 表示 拖动的距离为屏幕的高度的1/a4
                  */
                 int deltaY = (int) (preY - nowY) / size;
                 // 滚动

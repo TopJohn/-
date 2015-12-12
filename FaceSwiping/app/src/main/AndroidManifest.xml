@@ -60,8 +60,12 @@
         <activity
             android:name=".activity.LoginActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".activity.SecretSettingActivity" />
-        <activity android:name=".activity.FaceIdentificationActivity"></activity>
+        <activity
+            android:name=".activity.SecretSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FaceIdentificationActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

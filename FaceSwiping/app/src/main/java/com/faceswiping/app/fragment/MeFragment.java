@@ -1,9 +1,13 @@
 package com.faceswiping.app.fragment;
 
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.ActionBar;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -11,13 +15,17 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.faceswiping.app.R;
+import com.faceswiping.app.activity.MainActivity;
+import com.faceswiping.app.base.BaseFragment;
+import com.faceswiping.app.util.UIHelper;
 
+import butterknife.ButterKnife;
 import butterknife.InjectView;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class MeFragment extends Fragment {
+public class MeFragment extends BaseFragment {
 
 
     @InjectView(R.id.fragment_me_userImage)
@@ -44,8 +52,38 @@ public class MeFragment extends Fragment {
     @InjectView(R.id.fragment_me_mySecret)
     LinearLayout mySecret;
 
-    public MeFragment() {
-        // Required empty public constructor
+    private MainActivity mainActivity;
+
+    private ActionBar actionBar;
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        mainActivity = (MainActivity) activity;
+        actionBar = mainActivity.getSupportActionBar();
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
+
+
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+
+        actionBar.setDisplayHomeAsUpEnabled(false);
+        actionBar.setHomeAsUpIndicator(null);
+
+        actionBar.setDisplayShowCustomEnabled(true);
+        actionBar.setCustomView(R.layout.actionbar_custom_view);
+        View view = actionBar.getCustomView();
+        TextView textView = (TextView) view.findViewById(R.id.actionbar_title);
+        textView.setText("");
+
+        super.onCreateOptionsMenu(menu, inflater);
     }
 
 
@@ -53,7 +91,13 @@ public class MeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_me, container, false);
+
+        View view = inflater.inflate(R.layout.fragment_me, container, false);
+        ButterKnife.inject(this, view);
+        initView(view);
+        initData();
+
+        return view;
     }
 
     @Override
@@ -62,8 +106,38 @@ public class MeFragment extends Fragment {
 
     }
 
-    private void initView() {
+
+    @Override
+    public void initView(View view) {
+
+        mySecret.setOnClickListener(this);
 
     }
 
+    @Override
+    public void initData() {
+
+    }
+
+    @Override
+    public void onClick(View v) {
+
+        int id = v.getId();
+
+        switch (id) {
+
+            case R.id.fragment_me_mySecret:
+
+                UIHelper.showSecretSettingActivity(mainActivity);
+
+                break;
+
+            default:
+
+                break;
+
+        }
+
+
+    }
 }

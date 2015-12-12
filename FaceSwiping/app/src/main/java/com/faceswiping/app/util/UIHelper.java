@@ -4,8 +4,10 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 
+import com.faceswiping.app.activity.FaceIdentificationActivity;
 import com.faceswiping.app.activity.LoginActivity;
 import com.faceswiping.app.activity.MainActivity;
+import com.faceswiping.app.activity.SecretSettingActivity;
 
 /**
  * 界面帮助类
@@ -37,5 +39,19 @@ public class UIHelper {
         }).show();
     }
 
+
+    public static void showFaceIdentificationActivity(Context context) {
+
+        Intent intent = new Intent(context, FaceIdentificationActivity.class);
+        context.startActivity(intent);
+
+    }
+
+    public static void showSecretSettingActivity(Context context) {
+
+        Intent intent = new Intent(context, SecretSettingActivity.class);
+        context.startActivity(intent);
+
+    }
 
 }

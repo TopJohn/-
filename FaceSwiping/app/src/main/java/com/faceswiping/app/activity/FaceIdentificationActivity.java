@@ -1,6 +1,8 @@
 package com.faceswiping.app.activity;
 
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.view.Menu;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -25,7 +27,20 @@ public class FaceIdentificationActivity extends BaseActivity {
     @InjectView(R.id.face_identification_IdentificationState)
     TextView identificationState;
 
+    private ActionBar actionBar;
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        mActionBar.setDisplayShowTitleEnabled(false);
+        mActionBar.setDisplayShowCustomEnabled(true);
+        mActionBar.setCustomView(R.layout.actionbar_custom_view);
+        View view = mActionBar.getCustomView();
+        TextView textView = (TextView) view.findViewById(R.id.actionbar_title);
+        textView.setText("刷脸加好友");
+
+        return true;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,13 +57,10 @@ public class FaceIdentificationActivity extends BaseActivity {
         return true;
     }
 
-    @Override
-    protected int getActionBarTitle() {
-        return R.string.secret_identification_actionBar_title;
-    }
 
     @Override
     public void initView() {
+        actionBar = getSupportActionBar();
 
     }
 
