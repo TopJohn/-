@@ -804,4 +804,10 @@
     <string name="title_activity_keep_on_house_contract">KeepOnHouseContractActivity</string>
     <string name="title_activity_add_new_room">AddNewRoomActivity</string>
     <string name="title_activity_edit_guest_inform">EditGuestInformActivity</string>
+
+    <!--secret setting -->
+    <string name="secret_setting_actionBar_title">隐私</string>
+
+    <!--secret identification -->
+    <string name="secret_identification_actionBar_title">刷脸加好友</string>
 </resources>
