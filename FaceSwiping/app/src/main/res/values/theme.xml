@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 日间模式 -->
+    <style name="AppBaseTheme_Light_1" parent="@style/Theme.AppCompat.Light">
+        <!--<item name="colorPrimary">@color/day_colorPrimary</item>-->
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryDark">@color/day_colorPrimaryDark</item>
+        <item name="android:textColorLink">#0b9a27</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="editTextColor">@color/gray</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="textColor">@color/day_textColor</item>
+        <item name="infoTextColor">@color/day_infoTextColor</item>
+        <item name="layout_bg_normal">@color/day_layout_bg_normal</item>
+        <item name="lineColor">@color/day_line_color</item>
+        <item name="windows_bg">@color/day_windows_bg</item>
+        <item name="sliding_block_bg">@drawable/image_sliding_block</item>
+        <item name="layout_item_bg">@drawable/day_list_item_background</item>
+        <item name="android:editTextColor">@color/day_edit_color</item>
+        <item name="android:textColorHint">@color/day_edit_hit_color</item>
+        <item name="comment_reply_container_bg">@drawable/day_comment_reply_container_bg</item>
+        <item name="message_bg_left">@drawable/chat_from_bg_normal</item>
+        <item name="message_bg_right">@drawable/chat_to_bg_normal</item>
+
+        <item name="android:windowAnimationStyle">@style/ActivityTransitions</item>
+
+        <!--取消actionbar下的阴影-->
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!--ActionBar启用叠加模式-->
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+
+
+        <item name="quickoption_icon_text_selector">@drawable/day_quickoption_icon_text_selector
+        </item>
+        <item name="quickoption_icon_album_selector">@drawable/day_quickoption_icon_album_selector
+        </item>
+        <item name="quickoption_icon_photo_selector">@drawable/day_quickoption_icon_photo_selector
+        </item>
+        <item name="quickoption_icon_voice_selector">@drawable/day_quickoption_icon_voice_selector
+        </item>
+        <item name="quickoption_icon_scan_selector">@drawable/day_quickoption_icon_scan_selector
+        </item>
+        <item name="quickoption_icon_note_selector">@drawable/day_quickoption_icon_note_selector
+        </item>
+    </style>
+
+    <!-- 夜间模式 -->
+    <style name="AppBaseTheme_Night_1" parent="@style/Theme.AppCompat">
+        <item name="colorPrimary">@color/night_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/night_colorPrimaryDark</item>
+        <item name="android:textColorLink">@color/night_colorPrimary</item>
+        <item name="android:windowBackground">@color/night_windows_bg</item>
+        <item name="textColor">@color/night_textColor</item>
+        <item name="infoTextColor">@color/night_infoTextColor</item>
+        <item name="layout_bg_normal">@color/night_layout_bg_normal</item>
+        <item name="lineColor">@color/night_line_color</item>
+        <item name="windows_bg">@color/night_windows_bg</item>
+        <item name="sliding_block_bg">@drawable/night_image_sliding_block</item>
+        <item name="layout_item_bg">@drawable/night_list_item_background</item>
+        <item name="android:editTextColor">@color/night_edit_color</item>
+        <item name="android:textColorHint">@color/night_edit_hit_color</item>
+        <item name="comment_reply_container_bg">@drawable/night_comment_reply_container_bg</item>
+        <item name="message_bg_left">@drawable/night_chat_from_bg_normal</item>
+        <item name="message_bg_right">@drawable/chat_to_bg_pressed</item>
+
+
+        <item name="android:windowAnimationStyle">@style/ActivityTransitions</item>
+
+        <!--取消actionbar下的阴影-->
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!--ActionBar启用叠加模式-->
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+
+        <!--<item name="android:actionBarStyle">@style/MyActionBar</item>-->
+
+
+        <item name="quickoption_icon_text_selector">@drawable/night_quickoption_icon_text_selector
+        </item>
+        <item name="quickoption_icon_album_selector">
+            @drawable/night_quickoption_icon_album_selector
+        </item>
+        <item name="quickoption_icon_photo_selector">
+            @drawable/night_quickoption_icon_photo_selector
+        </item>
+        <item name="quickoption_icon_voice_selector">
+            @drawable/night_quickoption_icon_voice_selector
+        </item>
+        <item name="quickoption_icon_scan_selector">@drawable/night_quickoption_icon_scan_selector
+        </item>
+        <item name="quickoption_icon_note_selector">@drawable/night_quickoption_icon_note_selector
+        </item>
+    </style>
+
+    <!--  <style name="MyActionBar" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+
+          &lt;!&ndash; <item name="android:titleTextStyle">@style/Title_center</item>&ndash;&gt;
+
+
+          &lt;!&ndash; 支持库兼容 &ndash;&gt;
+          &lt;!&ndash;<item name="background">@color/transparent</item>&ndash;&gt;
+      </style>-->
+
+
+    <style name="AppBaseTheme_Light" parent="@style/Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/day_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/day_colorPrimaryDark</item>
+        <item name="android:textColorLink">#0b9a27</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="editTextColor">@color/gray</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="textColor">@color/day_textColor</item>
+        <item name="infoTextColor">@color/day_infoTextColor</item>
+        <item name="layout_bg_normal">@color/day_layout_bg_normal</item>
+        <item name="lineColor">@color/day_line_color</item>
+        <item name="windows_bg">@color/day_windows_bg</item>
+        <item name="sliding_block_bg">@drawable/image_sliding_block</item>
+        <item name="layout_item_bg">@drawable/day_list_item_background</item>
+        <item name="android:editTextColor">@color/day_edit_color</item>
+        <item name="android:textColorHint">@color/day_edit_hit_color</item>
+        <item name="comment_reply_container_bg">@drawable/day_comment_reply_container_bg</item>
+        <item name="message_bg_left">@drawable/chat_from_bg_normal</item>
+        <item name="message_bg_right">@drawable/chat_to_bg_normal</item>
+
+        <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+        <item name="actionMenuTextAppearance">@style/MenuTextStyle</item>
+
+        <item name="android:windowAnimationStyle">@style/ActivityTransitions</item>
+
+        <item name="android:actionBarSize">48dp</item>
+        <item name="actionBarSize">48dp</item>
+
+        <!--取消actionbar下的阴影-->
+        <!-- <item name="android:windowContentOverlay">@null</item>-->
+
+        <item name="quickoption_icon_text_selector">@drawable/day_quickoption_icon_text_selector
+        </item>
+        <item name="quickoption_icon_album_selector">@drawable/day_quickoption_icon_album_selector
+        </item>
+        <item name="quickoption_icon_photo_selector">@drawable/day_quickoption_icon_photo_selector
+        </item>
+        <item name="quickoption_icon_voice_selector">@drawable/day_quickoption_icon_voice_selector
+        </item>
+        <item name="quickoption_icon_scan_selector">@drawable/day_quickoption_icon_scan_selector
+        </item>
+        <item name="quickoption_icon_note_selector">@drawable/day_quickoption_icon_note_selector
+        </item>
+    </style>
+
+    <!-- 夜间模式 -->
+    <style name="AppBaseTheme_Night" parent="@style/Theme.AppCompat">
+        <item name="colorPrimary">@color/night_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/night_colorPrimaryDark</item>
+        <item name="android:textColorLink">@color/night_colorPrimary</item>
+        <item name="android:windowBackground">@color/night_windows_bg</item>
+        <item name="textColor">@color/night_textColor</item>
+        <item name="infoTextColor">@color/night_infoTextColor</item>
+        <item name="layout_bg_normal">@color/night_layout_bg_normal</item>
+        <item name="lineColor">@color/night_line_color</item>
+        <item name="windows_bg">@color/night_windows_bg</item>
+        <item name="sliding_block_bg">@drawable/night_image_sliding_block</item>
+        <item name="layout_item_bg">@drawable/night_list_item_background</item>
+        <item name="android:editTextColor">@color/night_edit_color</item>
+        <item name="android:textColorHint">@color/night_edit_hit_color</item>
+        <item name="comment_reply_container_bg">@drawable/night_comment_reply_container_bg</item>
+        <item name="message_bg_left">@drawable/night_chat_from_bg_normal</item>
+        <item name="message_bg_right">@drawable/chat_to_bg_pressed</item>
+
+
+        <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+        <item name="actionMenuTextAppearance">@style/MenuTextStyle</item>
+
+        <item name="android:windowAnimationStyle">@style/ActivityTransitions</item>
+
+        <item name="android:actionBarSize">48dp</item>
+        <item name="actionBarSize">48dp</item>
+
+        <!--取消actionbar下的阴影-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+
+
+        <item name="quickoption_icon_text_selector">@drawable/night_quickoption_icon_text_selector
+        </item>
+        <item name="quickoption_icon_album_selector">
+            @drawable/night_quickoption_icon_album_selector
+        </item>
+        <item name="quickoption_icon_photo_selector">
+            @drawable/night_quickoption_icon_photo_selector
+        </item>
+        <item name="quickoption_icon_voice_selector">
+            @drawable/night_quickoption_icon_voice_selector
+        </item>
+        <item name="quickoption_icon_scan_selector">@drawable/night_quickoption_icon_scan_selector
+        </item>
+        <item name="quickoption_icon_note_selector">@drawable/night_quickoption_icon_note_selector
+        </item>
+    </style>
+
+    <!--菜单字号-->
+    <style name="MenuTextStyle">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="ActivityTransitions" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_enter_slide_in_left
+        </item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit_fade_back</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_close_enter_fade_forward
+        </item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit_slide_out_right
+        </item>
+    </style>
+
+
+</resources>

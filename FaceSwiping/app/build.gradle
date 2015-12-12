@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.faceswiping.app"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+        manifestPlaceholders = [
+                GETUI_APP_ID    : "dQQXYVO6Qp7398eCkbbgm7",// 个推 app id
+                GETUI_APP_KEY   : "hZm8rDRkEx5NtvuocqzyL7",// 个推 app key
+                GETUI_APP_SECRET: "XHuNAZ9Sx1Ax9Koqdk8SY3",// 个推 app secret
+                PACKAGE_NAME    : applicationId, // apk 包名
+        ]
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.jakewharton:butterknife:6.1.0'
+    compile 'com.qiniu:qiniu-android-sdk:7.0.7'
+    compile 'com.loopj.android:android-async-http:1.4.7'
+    compile 'org.kymjs.kjframe:kjframe:2.4.4'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.4'
+    compile 'com.igexin:sdk:2.6.1.0'
+    compile 'com.igexin:getuiext:2.0.3'
+    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.google.code.gson:gson:2.4'
+    compile 'com.alibaba:fastjson:1.1.45.android'
+
+}
