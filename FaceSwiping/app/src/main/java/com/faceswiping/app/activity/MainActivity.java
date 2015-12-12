@@ -125,6 +125,9 @@ public class MainActivity extends ActionBarActivity implements
     @Override
     public void initView() {
         //双击返回键退出类
+
+        mActionBar = getSupportActionBar();
+
         mDoubleClickExit = new DoubleClickExitHelper(this);
 //        mNavigationDrawerFragment = (NavigationDrawerFragment) getSupportFragmentManager()
 //                .findFragmentById(R.id.navigation_drawer);

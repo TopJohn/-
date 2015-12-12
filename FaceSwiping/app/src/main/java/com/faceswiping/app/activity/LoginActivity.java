@@ -56,12 +56,6 @@ public class LoginActivity extends BaseActivity {
 
                 System.out.println(response);
 
-                for (Header header : headers) {
-                    if (header.getName().equals("X-AUTH-TOKEN")) {
-                        System.out.println(header.getValue());
-                    }
-                }
-
 
 //                Result<User> result = JSON.parseObject(response, new TypeReference<Result<User>>() {
 //                });
