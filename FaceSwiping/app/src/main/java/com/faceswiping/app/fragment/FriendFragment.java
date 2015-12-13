@@ -154,7 +154,7 @@ public class FriendFragment extends BaseFragment {
 
     @Override
     public void initData() {
-        
+
     }
 
     private void sendRequestData() {

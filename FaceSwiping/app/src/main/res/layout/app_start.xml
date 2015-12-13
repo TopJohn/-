@@ -6,39 +6,11 @@
     android:background="@color/white">
 
     <ImageView
-        android:id="@+id/icon_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="150dp"
-        android:src="@drawable/appstart_img" />
+        android:scaleType="centerCrop"
+        android:layout_centerInParent="true"
+        android:src="@drawable/splash" />
 
-    <ImageView
-        android:id="@+id/icon_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/icon_1"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/appstart_img_1"
-        android:visibility="gone"/>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="41dp"
-        android:src="@drawable/ic_launcher" />
-
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"
-        android:src="@drawable/www_inyouzi_com" />
 
 </RelativeLayout>

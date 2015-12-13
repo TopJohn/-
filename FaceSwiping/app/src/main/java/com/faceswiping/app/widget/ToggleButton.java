@@ -60,7 +60,12 @@ public class ToggleButton extends View {
 	private RectF rect = new RectF();
 	
 	private OnToggleChanged listener;
-	
+
+
+	public boolean isToggleOn() {
+		return toggleOn;
+	}
+
 	private ToggleButton(Context context) {
 		super(context);
 	}

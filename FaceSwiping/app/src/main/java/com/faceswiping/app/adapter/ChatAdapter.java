@@ -10,6 +10,7 @@ import android.widget.TextView;
 import com.faceswiping.app.R;
 import com.faceswiping.app.base.ListBaseAdapter;
 import com.faceswiping.app.bean.ChatBean;
+import com.faceswiping.app.util.UIHelper;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
@@ -91,11 +92,11 @@ public class ChatAdapter extends ListBaseAdapter<ChatBean> {
 
         }
 
-        if(position==1){
+        if (position == 1) {
             vh.ll_root_view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
+                    UIHelper.showAddNewFriendActivity(parent.getContext());
                 }
             });
         }

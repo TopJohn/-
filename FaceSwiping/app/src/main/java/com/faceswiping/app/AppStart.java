@@ -6,9 +6,6 @@ import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
-import android.view.animation.AnimationSet;
-import android.view.animation.AnimationUtils;
-import android.widget.ImageView;
 
 import com.faceswiping.app.activity.MainActivity;
 import com.faceswiping.app.interf.BaseViewInterface;
@@ -25,8 +22,6 @@ import org.kymjs.kjframe.utils.PreferenceHelper;
  */
 public class AppStart extends Activity implements BaseViewInterface {
 
-    private ImageView icon1;
-    private ImageView icon2;
 
 //    private AsyncHttpResponseHandler handler = new AsyncHttpResponseHandler() {
 //        @Override
@@ -141,35 +136,11 @@ public class AppStart extends Activity implements BaseViewInterface {
 
         setContentView(view);
 
-        icon1 = (ImageView) findViewById(R.id.icon_1);
-        icon2 = (ImageView) findViewById(R.id.icon_2);
 
-        //第一个Icon消失
-        AlphaAnimation alphaAnimation = (AlphaAnimation) AnimationUtils.loadAnimation(this, R.anim.alpha_out);
-        final AnimationSet animationSet = (AnimationSet) AnimationUtils.loadAnimation(this, R.anim.slid_alpha_in);
-        icon1.startAnimation(alphaAnimation);
-        alphaAnimation.setAnimationListener(new AnimationListener() {
-            @Override
-            public void onAnimationStart(Animation animation) {
-
-            }
-
-            @Override
-            public void onAnimationEnd(Animation animation) {
-                icon1.setVisibility(View.INVISIBLE);
-                icon2.setVisibility(View.VISIBLE);
-                icon2.startAnimation(animationSet);
-            }
-
-            @Override
-            public void onAnimationRepeat(Animation animation) {
-
-            }
-        });
 
         // 渐变展示启动屏
         AlphaAnimation aa = new AlphaAnimation(0.3f, 1.0f);
-        aa.setDuration(2500);
+        aa.setDuration(1500);
         view.startAnimation(aa);
         aa.setAnimationListener(new AnimationListener() {
             @Override

@@ -15,7 +15,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.faceswiping.app.AppConfig;
 import com.faceswiping.app.AppContext;
 import com.faceswiping.app.R;
 import com.faceswiping.app.api.remote.FaceSwipingApi;
@@ -99,6 +98,8 @@ public class FaceIdentificationActivity extends BaseActivity {
 
             String response = new String(responseBody);
 
+            System.out.println(response);
+
             try {
 
 //                Result result = JSON.parseObject(response, Result.class);
@@ -140,6 +141,8 @@ public class FaceIdentificationActivity extends BaseActivity {
 
             String response = new String(responseBody);
 
+            System.out.println(response);
+
             try {
 
 //                Result result = JSON.parseObject(response, Result.class);
@@ -149,17 +152,28 @@ public class FaceIdentificationActivity extends BaseActivity {
 
                 if (result.getErrorcode() == 0) {
 
-                    AppContext.showToast("开启成功～！");
 
                     User user = result.getData();
 
-                    AppContext.getInstance().saveUserInfo(user);
-                    identificationState.setText("已认证");
+                    System.out.println(user.getSecret());
+
+                    AppContext.getInstance().updateUserInfo(user);
+
+                    if (user.getSecret() == 0) {
+                        toggleButton.setToggleOff();
+                    } else {
+                        toggleButton.setToggleOn();
+                    }
 
                 } else {
                     AppContext.showToast(result.getErrormsg());
-                    AppContext.set(AppConfig.KEY_FACE_SWIPING_OPEN, false);
-                    toggleButton.setToggleOff();
+                    if (toggleButton.isToggleOn()) {
+                        toggleButton.setToggleOff();
+                        identificationButton.setVisibility(View.GONE);
+                    } else {
+                        toggleButton.setToggleOn();
+                        identificationButton.setVisibility(View.VISIBLE);
+                    }
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -172,7 +186,14 @@ public class FaceIdentificationActivity extends BaseActivity {
 
             hideWaitDialog();
 
-            AppContext.showToast("开启失败");
+            if (toggleButton.isToggleOn()) {
+                toggleButton.setToggleOff();
+                identificationButton.setVisibility(View.GONE);
+            } else {
+                toggleButton.setToggleOn();
+                identificationButton.setVisibility(View.VISIBLE);
+            }
+
         }
     };
 
@@ -183,7 +204,6 @@ public class FaceIdentificationActivity extends BaseActivity {
             try {
 
                 String response = new String(responseBody);
-
 
                 System.out.println(response);
 //                Result<String> result = JSON.parseObject(response, new TypeReference<Result<String>>() {
@@ -214,6 +234,7 @@ public class FaceIdentificationActivity extends BaseActivity {
 
                                 System.out.println(info.isOK());
 
+
                                 if (info.isOK()) {
 
                                     String[] keys = new String[1];
@@ -226,7 +247,7 @@ public class FaceIdentificationActivity extends BaseActivity {
                                 } else {
 
                                     hideWaitDialog();
-                                    AppContext.showToast("更换头像失败");
+                                    AppContext.showToast("认证失败～！");
                                 }
 
 
@@ -246,6 +267,8 @@ public class FaceIdentificationActivity extends BaseActivity {
         @Override
         public void onFailure(int statusCode, Header[] headers,
                               byte[] responseBody, Throwable error) {
+
+            System.out.println(statusCode);
 
             hideWaitDialog();
             AppContext.showToastShort("上传失败～！");
@@ -296,7 +319,7 @@ public class FaceIdentificationActivity extends BaseActivity {
             identificationState.setText("已认证");
         }
 
-        if (AppContext.get(AppConfig.KEY_FACE_SWIPING_OPEN, false)) {
+        if (AppContext.getInstance().getLoginUser().getSecret() == 1) {
             toggleButton.setToggleOn();
             identificationButton.setVisibility(View.VISIBLE);
         } else {
@@ -307,7 +330,6 @@ public class FaceIdentificationActivity extends BaseActivity {
         toggleButton.setOnToggleChanged(new ToggleButton.OnToggleChanged() {
             @Override
             public void onToggle(boolean on) {
-                AppContext.set(AppConfig.KEY_FACE_SWIPING_OPEN, on);
 
                 if (on) {
 
@@ -319,7 +341,7 @@ public class FaceIdentificationActivity extends BaseActivity {
                 }
 
 
-                if (AppContext.get(AppConfig.KEY_FACE_SWIPING_OPEN, false)) {
+                if (on) {
 
                     identificationButton.setVisibility(View.VISIBLE);
 

@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.faceswiping.app.AppConfig;
 import com.faceswiping.app.AppContext;
 import com.faceswiping.app.R;
 import com.faceswiping.app.base.BaseActivity;
@@ -65,7 +64,7 @@ public class SecretSettingActivity extends BaseActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        if (AppContext.get(AppConfig.KEY_FACE_SWIPING_OPEN, false)) {
+        if (AppContext.getInstance().getLoginUser().getSecret() == 1) {
             openStateTextView.setText("已开通");
         } else {
             openStateTextView.setText("未开通");

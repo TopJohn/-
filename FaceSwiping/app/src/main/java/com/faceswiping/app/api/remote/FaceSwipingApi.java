@@ -4,6 +4,7 @@ import com.faceswiping.app.api.ApiHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
 import org.apache.http.entity.StringEntity;
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 
@@ -53,11 +54,19 @@ public class FaceSwipingApi {
         StringEntity stringEntity;
         try {
 
-            jsonObject.put("keys", keys);
+            JSONArray jsonArray = new JSONArray();
+
+            for (String key : keys) {
+                jsonArray.put(key);
+            }
+
+            jsonObject.put("keys", jsonArray);
+
+            System.out.println(jsonObject);
 
             stringEntity = new StringEntity(jsonObject.toString(), "utf-8");
 
-            ApiHttpClient.post(url, stringEntity, "application/json", handler);
+            ApiHttpClient.put(url, stringEntity, "application/json", handler);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -83,7 +92,7 @@ public class FaceSwipingApi {
 
     public static void getFriends(AsyncHttpResponseHandler handler) {
 
-        String url = "user/secret/"  ;
+        String url = "user/secret/";
 
         ApiHttpClient.get(url, handler);
 
@@ -91,7 +100,7 @@ public class FaceSwipingApi {
 
     public static void getMyInform(AsyncHttpResponseHandler handler) {
 
-        String url = "user/secret/"  ;
+        String url = "user/secret/";
 
         ApiHttpClient.get(url, handler);
 

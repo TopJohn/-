@@ -1,13 +1,16 @@
 package com.faceswiping.app.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.view.Menu;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.faceswiping.app.AppContext;
 import com.faceswiping.app.R;
 import com.faceswiping.app.base.BaseActivity;
+import com.faceswiping.app.util.UIHelper;
 
 import butterknife.InjectView;
 
@@ -38,9 +41,19 @@ public class AddNewFriendActivity extends BaseActivity {
         return R.layout.activity_add_new_friend;
     }
 
+    private ActionBar actionBar;
+
     @Override
-    protected int getActionBarTitle() {
-        return R.string.add_newFriend_actionBar_title;
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        mActionBar.setDisplayShowTitleEnabled(false);
+        mActionBar.setDisplayShowCustomEnabled(true);
+        mActionBar.setCustomView(R.layout.actionbar_custom_view);
+        View view = mActionBar.getCustomView();
+        TextView textView = (TextView) view.findViewById(R.id.actionbar_title);
+        textView.setText("添加好友");
+
+        return true;
     }
 
     @Override
@@ -50,6 +63,15 @@ public class AddNewFriendActivity extends BaseActivity {
 
     @Override
     public void initView() {
+
+        addFriendLayout.setOnClickListener(this);
+
+        if (AppContext.getInstance().getLoginUser().getSecret() == 0) {
+            addFriendState.setVisibility(View.VISIBLE);
+        } else {
+            addFriendState.setVisibility(View.GONE);
+        }
+
 
     }
 
@@ -62,6 +84,20 @@ public class AddNewFriendActivity extends BaseActivity {
     public void onClick(View v) {
         int id = v.getId();
         switch (id) {
+
+            case R.id.add_friend_faceAddFriendLayout:
+
+                if (AppContext.getInstance().getLoginUser().getSecret() == 0) {
+                    UIHelper.showFaceIdentificationActivity(this);
+                } else {
+
+
+                }
+
+                break;
+            default:
+
+                break;
 
         }
     }

@@ -197,7 +197,7 @@ public class AppContext extends BaseApplication {
         if (null != user && user.getToken() != null && !user.getToken().equals("")) {
             login = true;
 
-            ApiHttpClient.getHttpClient().setBasicAuth(getProperty("user.token"), null);
+            ApiHttpClient.getHttpClient().addHeader("X-AUTH-TOKEN", user.getToken());
             loginUid = user.getId();
         } else {
             this.cleanLoginInfo();
@@ -338,6 +338,11 @@ public class AppContext extends BaseApplication {
     public void updateUserInfo(final User user) {
         setProperties(new Properties() {
             {
+                setProperty("user.secret", user.getSecret() + "");
+                // ApiHttpClient.getHttpClient().setBasicAuth(getProperty("user.token"), null);
+
+                setProperty("user.uid", String.valueOf(user.getId()));
+
                 if (user.getNickName() != null)
                     setProperty("user.name", user.getNickName());
 //                if (user.getFace_photo() != null)
