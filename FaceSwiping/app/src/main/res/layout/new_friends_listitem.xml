@@ -84,6 +84,8 @@
         android:id="@+id/new_friends_listItem_friendGroupPhoto"
         android:src="@drawable/main_background"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:scaleType="centerCrop"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"/>
 
 </LinearLayout>

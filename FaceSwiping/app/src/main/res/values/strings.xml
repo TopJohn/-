@@ -478,7 +478,7 @@
     <string name="tip_login_error_for_network">对不起,无法登录</string>
     <string name="zhuceshibai">注册失败</string>
     <string name="tip_no_internet">当前没有可用的网络链接</string>
-
+    <string name="tip_receive_fail">接受失败</string>
     <string name="zhengzaijieyue">正在解约～！</string>
 
     <string name="yuetixian">余额提现</string>

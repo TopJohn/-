@@ -13,6 +13,9 @@ public class Result<T> implements Serializable {
 
     private T data;
 
+    private T friends;
+
+    private T userAddFriendsRequests;
 
     public int getErrorcode() {
         return errorcode;
@@ -36,5 +39,21 @@ public class Result<T> implements Serializable {
 
     public void setData(T data) {
         this.data = data;
+    }
+
+    public T getFriends() {
+        return friends;
+    }
+
+    public void setFriends(T friends) {
+        this.friends = friends;
+    }
+
+    public T getUserAddFriendsRequests() {
+        return userAddFriendsRequests;
+    }
+
+    public void setUserAddFriendsRequests(T userAddFriendsRequests) {
+        this.userAddFriendsRequests = userAddFriendsRequests;
     }
 }

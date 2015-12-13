@@ -117,8 +117,8 @@ public class MarkNewFriendsActivity extends BaseActivity {
     @Override
     public void initView() {
 
-        url = getIntent().getStringExtra("url");
-        ImageLoader.getInstance().
+//        url = getIntent().getStringExtra("url");
+//        ImageLoader.getInstance().
 
     }
 

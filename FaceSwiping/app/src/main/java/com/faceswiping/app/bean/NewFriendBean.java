@@ -1,5 +1,7 @@
 package com.faceswiping.app.bean;
 
+import com.faceswiping.app.util.StringUtils;
+
 import java.io.Serializable;
 
 /**
@@ -7,24 +9,30 @@ import java.io.Serializable;
  */
 public class NewFriendBean implements Serializable {
 
+    private int userId;
+
     private String name;
+
+    private String userName;
 
     private String headImageUrl;
 
-    private String content;
+    private String imageUrl;
 
-    private String fromResource;
-
-    private boolean isAddedFriend;
-
-    private String groupImageUrl;
-
-    public String getGroupImageUrl() {
-        return groupImageUrl;
+    public int getUserId() {
+        return userId;
     }
 
-    public void setGroupImageUrl(String groupImageUrl) {
-        this.groupImageUrl = groupImageUrl;
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     public String getName() {
@@ -43,27 +51,11 @@ public class NewFriendBean implements Serializable {
         this.headImageUrl = headImageUrl;
     }
 
-    public String getContent() {
-        return content;
+    public String getImageUrl() {
+        return imageUrl;
     }
 
-    public void setContent(String content) {
-        this.content = content;
-    }
-
-    public String getFromResource() {
-        return fromResource;
-    }
-
-    public void setFromResource(String fromResource) {
-        this.fromResource = fromResource;
-    }
-
-    public boolean isAddedFriend() {
-        return isAddedFriend;
-    }
-
-    public void setIsAddedFriend(boolean isAddedFriend) {
-        this.isAddedFriend = isAddedFriend;
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 }

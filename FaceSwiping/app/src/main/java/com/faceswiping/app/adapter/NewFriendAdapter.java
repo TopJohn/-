@@ -72,22 +72,23 @@ public class NewFriendAdapter extends ListBaseAdapter<NewFriendBean> {
 
         NewFriendBean newFriendBean = mDatas.get(position);
         ImageLoader.getInstance().displayImage(newFriendBean.getHeadImageUrl(), vh.nf_friendImage, ChatFragment.optionsImage);
-        vh.nf_friendName.setText(newFriendBean.getName());
-        vh.nf_friendInfo.setText(newFriendBean.getContent());
+        vh.nf_friendInfo.setText("你好,很高兴认识你~!");
 
-        if (newFriendBean.isAddedFriend()) {
+        if (newFriendBean.getName() != null) {
             vh.nf_friendGroupImage.setVisibility(View.GONE);
             vh.nf_receiveButton.setVisibility(View.GONE);
             vh.nf_requestFrom.setVisibility(View.GONE);
             vh.nf_receivedView.setVisibility(View.VISIBLE);
+            vh.nf_friendName.setText(newFriendBean.getName());
         } else {
             vh.nf_friendGroupImage.setVisibility(View.VISIBLE);
             vh.nf_receiveButton.setVisibility(View.VISIBLE);
             vh.nf_requestFrom.setVisibility(View.VISIBLE);
             vh.nf_receivedView.setVisibility(View.GONE);
 
+            vh.nf_friendName.setText(newFriendBean.getUserName());
             vh.nf_requestFrom.setText("来源:刷脸加好友");
-            ImageLoader.getInstance().displayImage(newFriendBean.getGroupImageUrl(), vh.nf_friendGroupImage, ChatFragment.optionsImage);
+            ImageLoader.getInstance().displayImage(newFriendBean.getImageUrl(), vh.nf_friendGroupImage, ChatFragment.optionsImage);
             vh.nf_receiveButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

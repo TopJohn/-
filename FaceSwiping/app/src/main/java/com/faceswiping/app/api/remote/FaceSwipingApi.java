@@ -98,6 +98,16 @@ public class FaceSwipingApi {
 
     }
 
+    public static void getFriendsAccept(int userId,AsyncHttpResponseHandler handler) {
+
+        String url = "user/friend/accept/" + userId;
+
+        ApiHttpClient.get(url, handler);
+
+    }
+
+
+
     public static void getMyInform(AsyncHttpResponseHandler handler) {
 
         String url = "user/secret/";
@@ -108,7 +118,7 @@ public class FaceSwipingApi {
 
     public static void getNewFriendList(AsyncHttpResponseHandler handler) {
 
-        String url = "user/secret/";
+        String url = "user/friendsRecordResponse";
 
         ApiHttpClient.get(url, handler);
 

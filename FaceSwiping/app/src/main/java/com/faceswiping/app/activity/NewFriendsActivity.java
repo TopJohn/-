@@ -12,6 +12,7 @@ import com.faceswiping.app.R;
 import com.faceswiping.app.adapter.NewFriendAdapter;
 import com.faceswiping.app.api.remote.FaceSwipingApi;
 import com.faceswiping.app.base.BaseActivity;
+import com.faceswiping.app.bean.FriendBean;
 import com.faceswiping.app.bean.NewFriendBean;
 import com.faceswiping.app.bean.Result;
 import com.faceswiping.app.util.TDevice;
@@ -36,7 +37,11 @@ public class NewFriendsActivity extends BaseActivity implements ListItemClickHel
 
     private NewFriendAdapter adapter;
 
-    private ArrayList<NewFriendBean> mDatas;
+    private NewFriendBean currentReceiveFriend;
+    private ArrayList<NewFriendBean> mDatas = new ArrayList<NewFriendBean>();
+
+    private ArrayList<NewFriendBean> mDatas1 = new ArrayList<NewFriendBean>();
+    private ArrayList<NewFriendBean> mDatas2 = new ArrayList<NewFriendBean>();
 
 
     private ActionBar actionBar;
@@ -51,13 +56,28 @@ public class NewFriendsActivity extends BaseActivity implements ListItemClickHel
             try {
 
                 String response = new String(responseBody);
-
-                Result<ArrayList<NewFriendBean>> result = new Gson().fromJson(response, new TypeToken<ArrayList<NewFriendBean>>() {
+                System.out.println(response);
+                Result<ArrayList<NewFriendBean>> result = new Gson().fromJson(response, new TypeToken<
+                       Result<ArrayList<NewFriendBean>>>() {
                 }.getType());
 
                 if (result.getErrorcode() == 0) {
 
-                    mDatas = result.getData();
+                    mDatas1 = result.getUserAddFriendsRequests();
+                    mDatas2 = result.getFriends();
+
+                    if (mDatas1.size() > 0){
+                        for (int i = 0; i < mDatas1.size(); i++) {
+                            mDatas.add(mDatas1.get(i));
+                        }
+                    }
+
+                    if (mDatas2.size() > 0){
+                        for (int i = 0; i < mDatas2.size(); i++) {
+                            mDatas.add(mDatas2.get(i));
+                        }
+                    }
+
                     adapter = new NewFriendAdapter();
                     adapter.setData(mDatas);
                     adapter.setCallBack(NewFriendsActivity.this);
@@ -134,8 +154,6 @@ public class NewFriendsActivity extends BaseActivity implements ListItemClickHel
 
     }
 
-
-
     private void sendRequestData() {
 
         if (TDevice.hasInternet()) {
@@ -159,10 +177,48 @@ public class NewFriendsActivity extends BaseActivity implements ListItemClickHel
         }
     }
 
+    private AsyncHttpResponseHandler handler1 = new AsyncHttpResponseHandler() {
+        @Override
+        public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
+            try {
+
+                String response = new String(responseBody);
+                System.out.println(response);
+                Result<ArrayList<FriendBean>> result = new Gson().fromJson(response, new TypeToken<
+                        Result<ArrayList<FriendBean>>>() {
+                }.getType());
+
+                if (result.getErrorcode() == 0) {
+                    //receive success
+                    mDatas.remove(currentReceiveFriend);
+                    NewFriendBean receivedFriend = new NewFriendBean();
+                    receivedFriend.setName(currentReceiveFriend.getUserName());
+                    receivedFriend.setHeadImageUrl(currentReceiveFriend.getHeadImageUrl());
+                    mDatas.add(0, receivedFriend);
+                    adapter.notifyDataSetChanged();
+                    
+                } else {
+                    AppContext.showToastShort(R.string.tip_receive_fail);
+                }
+
+
+            } catch (Exception e) {
+                e.printStackTrace();
+                onFailure(statusCode, headers, responseBody, e);
+            }
+        }
+
+        @Override
+        public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
+
+        }
+    };
+
     //receive button click
     @Override
     public void onClick(View item, View widget, int position, int which) {
-        NewFriendBean clickNewFriend = mDatas.get(position);
-
+        currentReceiveFriend = mDatas.get(position);
+        System.out.println("position:" + position);
+        FaceSwipingApi.getFriendsAccept(currentReceiveFriend.getUserId(),handler1);
     }
 }
