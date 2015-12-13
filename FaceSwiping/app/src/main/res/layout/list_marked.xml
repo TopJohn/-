@@ -66,6 +66,7 @@
                 android:gravity="center_vertical"
                 android:text="添加"
                 android:textColor="#F28471" />
+
         </LinearLayout>
 
     </LinearLayout>

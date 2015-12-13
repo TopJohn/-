@@ -54,9 +54,7 @@ public class ChatAdapter extends ListBaseAdapter<ChatBean> {
             vh = new ViewHolder(convertView);
             convertView.setTag(vh);
         } else {
-
             vh = (ViewHolder) convertView.getTag();
-
         }
 
         ChatBean chatBean = mDatas.get(position);

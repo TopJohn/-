@@ -12,7 +12,7 @@ import com.faceswiping.app.base.ListBaseAdapter;
 import com.faceswiping.app.bean.NewFriendBean;
 import com.faceswiping.app.fragment.ChatFragment;
 import com.nostra13.universalimageloader.core.ImageLoader;
-
+import com.faceswiping.app.interf.*;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
@@ -21,6 +21,13 @@ import butterknife.InjectView;
  * Created by wanglin on 15/12/13.
  */
 public class NewFriendAdapter extends ListBaseAdapter<NewFriendBean> {
+
+    private ListItemClickHelp callback;
+
+    public void setCallBack (ListItemClickHelp callBack){
+        this.callback = callBack;
+    }
+
     public static class ViewHolder {
 
         @InjectView(R.id.new_friends_listItem_friendImage)
@@ -52,7 +59,7 @@ public class NewFriendAdapter extends ListBaseAdapter<NewFriendBean> {
     }
 
     @Override
-    protected View getRealView(int position, View convertView, final ViewGroup parent) {
+    protected View getRealView(final int position, View convertView, final ViewGroup parent) {
         ViewHolder vh = null;
         LayoutInflater inflater = getLayoutInflater(parent.getContext());
         if (convertView == null || convertView.getTag() == null) {
@@ -79,12 +86,12 @@ public class NewFriendAdapter extends ListBaseAdapter<NewFriendBean> {
             vh.nf_requestFrom.setVisibility(View.VISIBLE);
             vh.nf_receivedView.setVisibility(View.GONE);
 
-            vh.nf_requestFrom.setText(newFriendBean.getFromResource());
+            vh.nf_requestFrom.setText("来源:刷脸加好友");
             ImageLoader.getInstance().displayImage(newFriendBean.getGroupImageUrl(), vh.nf_friendGroupImage, ChatFragment.optionsImage);
             vh.nf_receiveButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
+                    callback.onClick(v,parent,position,v.getId());
                 }
             });
         }

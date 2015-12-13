@@ -19,16 +19,14 @@ import com.faceswiping.app.widget.EmptyLayout;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.AsyncHttpResponseHandler;
-
+import com.faceswiping.app.interf.*;
 import org.apache.http.Header;
 
 import java.util.ArrayList;
 
 import butterknife.InjectView;
 
-public class NewFriendsActivity extends BaseActivity {
-
-
+public class NewFriendsActivity extends BaseActivity implements ListItemClickHelp{
 
     @InjectView(R.id.new_friends_listView)
     ListView friendsListView;
@@ -60,9 +58,9 @@ public class NewFriendsActivity extends BaseActivity {
                 if (result.getErrorcode() == 0) {
 
                     mDatas = result.getData();
-
                     adapter = new NewFriendAdapter();
                     adapter.setData(mDatas);
+                    adapter.setCallBack(NewFriendsActivity.this);
                     friendsListView.setAdapter(adapter);
 
                 } else {
@@ -159,5 +157,12 @@ public class NewFriendsActivity extends BaseActivity {
         switch (id) {
 
         }
+    }
+
+    //receive button click
+    @Override
+    public void onClick(View item, View widget, int position, int which) {
+        NewFriendBean clickNewFriend = mDatas.get(position);
+
     }
 }
