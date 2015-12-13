@@ -81,6 +81,16 @@
             android:name=".activity.MarkNewFriendsActivity"
             android:screenOrientation="portrait" />
 
+        <!-- 个推配置 -->
+        <!-- 配置第三方Receiver -->
+        <receiver
+            android:name=".broadcast.PushBroadCastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.${GETUI_APP_ID}" />
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>

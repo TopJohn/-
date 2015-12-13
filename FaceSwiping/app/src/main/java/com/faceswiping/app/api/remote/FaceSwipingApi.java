@@ -42,7 +42,7 @@ public class FaceSwipingApi {
     public static void sendClientId(String clientId, AsyncHttpResponseHandler handler) {
         String url = "user/getui/" + clientId;
 
-        ApiHttpClient.post(url, handler);
+        ApiHttpClient.put(url, handler);
 
     }
 
@@ -121,6 +121,22 @@ public class FaceSwipingApi {
         String url = "user/friendsRecordResponse";
 
         ApiHttpClient.get(url, handler);
+
+    }
+
+    public static void getMarkedPeopleList(String key, AsyncHttpResponseHandler handler) {
+
+        String url = "user/face/identify/" + key;
+
+        ApiHttpClient.get(url, handler);
+
+    }
+
+    public static void pubFriendRequest(int userId, String key, AsyncHttpResponseHandler handler) {
+
+        String url = "/user/" + userId + "/friend/" + key;
+
+        ApiHttpClient.post(url, handler);
 
     }
 

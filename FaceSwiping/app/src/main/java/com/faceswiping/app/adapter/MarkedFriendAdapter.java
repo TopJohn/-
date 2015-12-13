@@ -4,13 +4,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.faceswiping.app.R;
+import com.faceswiping.app.activity.MarkNewFriendsActivity;
 import com.faceswiping.app.base.ListBaseAdapter;
-import com.faceswiping.app.bean.ChatBean;
-import com.faceswiping.app.bean.MarkedFriendBean;
+import com.faceswiping.app.bean.MarkedInnerItem;
 import com.faceswiping.app.fragment.ChatFragment;
 import com.faceswiping.app.util.UIHelper;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -21,7 +20,7 @@ import butterknife.InjectView;
 /**
  * Created by wanglin on 15/12/13.
  */
-public class MarkedFriendAdapter extends ListBaseAdapter<MarkedFriendBean> {
+public class MarkedFriendAdapter extends ListBaseAdapter<MarkedInnerItem> {
     public static class ViewHolder {
 
         @InjectView(R.id.marked_tv_name)
@@ -57,14 +56,16 @@ public class MarkedFriendAdapter extends ListBaseAdapter<MarkedFriendBean> {
 
         }
 
-        MarkedFriendBean markedFriendBean = mDatas.get(position);
+        final MarkedInnerItem markedInnerItem = mDatas.get(position);
 
-        vh.tv_name.setText(markedFriendBean.getName());
-        vh.tv_content.setText(markedFriendBean.getContent());
-        ImageLoader.getInstance().displayImage(markedFriendBean.getHeadImageUrl(), vh.im_header, ChatFragment.optionsImage);
+        vh.tv_name.setText(markedInnerItem.getUserName());
+        vh.tv_content.setText("地点：上海");
+        ImageLoader.getInstance().displayImage(markedInnerItem.getHeadImageUrl(), vh.im_header, ChatFragment.optionsImage);
         vh.tv_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                UIHelper.showSendFriendRequestActivity(((MarkNewFriendsActivity) parent.getContext()).getUrl(),((MarkNewFriendsActivity) parent.getContext()).getKey(), markedInnerItem.getId(), parent.getContext());
 
             }
         });
