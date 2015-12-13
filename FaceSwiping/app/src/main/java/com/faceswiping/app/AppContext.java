@@ -306,9 +306,12 @@ public class AppContext extends BaseApplication {
                 ApiHttpClient.getHttpClient().addHeader("X-AUTH-TOKEN", user.getToken());
 
                 setProperty("user.uid", String.valueOf(user.getId()));
-
+                setProperty("user.certification", String.valueOf(user.getCertification()));
                 if (user.getNickName() != null)
                     setProperty("user.name", user.getNickName());
+
+                if (user.getCertificationImageUrl() != null)
+                    setProperty("user.certificationImageUrl", user.getCertificationImageUrl());
 
                 // setProperty("user.face", user.getFace_photo());// 用户头像-文件名
                 //setProperty("user.phone", user.getPhone());
@@ -342,6 +345,10 @@ public class AppContext extends BaseApplication {
                 // ApiHttpClient.getHttpClient().setBasicAuth(getProperty("user.token"), null);
 
                 setProperty("user.uid", String.valueOf(user.getId()));
+                setProperty("user.certification", String.valueOf(user.getCertification()));
+
+                if (user.getCertificationImageUrl() != null)
+                    setProperty("user.certificationImageUrl", user.getCertificationImageUrl());
 
                 if (user.getNickName() != null)
                     setProperty("user.name", user.getNickName());
@@ -371,6 +378,16 @@ public class AppContext extends BaseApplication {
         if (getProperty("user.secret") != null) {
             user.setSecret(Integer.parseInt(getProperty("user.secret")));
         }
+
+        if (getProperty("user.certification") != null) {
+            user.setSecret(Integer.parseInt(getProperty("user.certification")));
+        }
+
+        if (getProperty("user.certificationImageUrl") != null) {
+            user.setCertificationImageUrl(getProperty("user.certificationImageUrl"));
+        }
+
+
         //user.setFace_photo(getProperty("user.face"));
         //user.setPhone(getProperty("user.phone"));
         // user.setApart_name(getProperty("user.apart_name"));

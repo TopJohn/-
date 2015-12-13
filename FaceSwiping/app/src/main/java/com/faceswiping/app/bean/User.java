@@ -17,13 +17,33 @@ public class User implements Serializable {
 
     private String headImageUrl;
 
+    private String certificationImageUrl;
+
     private String introduction;
 
-    //0为开启，1是已开启
+    //0未开启，1是已开启
     private int secret;
+
+    //0未认证，1是已认证
+    private int certification;
 
     private String token;
 
+    public String getCertificationImageUrl() {
+        return certificationImageUrl;
+    }
+
+    public void setCertificationImageUrl(String certificationImageUrl) {
+        this.certificationImageUrl = certificationImageUrl;
+    }
+
+    public int getCertification() {
+        return certification;
+    }
+
+    public void setCertification(int certification) {
+        this.certification = certification;
+    }
 
     public String getToken() {
         return token;

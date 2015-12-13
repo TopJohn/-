@@ -21,6 +21,7 @@ import com.faceswiping.app.api.remote.FaceSwipingApi;
 import com.faceswiping.app.base.BaseActivity;
 import com.faceswiping.app.bean.Result;
 import com.faceswiping.app.bean.User;
+import com.faceswiping.app.fragment.ChatFragment;
 import com.faceswiping.app.util.FileUtil;
 import com.faceswiping.app.util.ImageUtils;
 import com.faceswiping.app.util.StringUtils;
@@ -28,6 +29,7 @@ import com.faceswiping.app.widget.ToggleButton;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.nostra13.universalimageloader.core.ImageLoader;
 import com.qiniu.android.http.ResponseInfo;
 import com.qiniu.android.storage.UpCompletionHandler;
 import com.qiniu.android.storage.UploadManager;
@@ -89,6 +91,8 @@ public class FaceIdentificationActivity extends BaseActivity {
 
     private String qiniuToken;
 
+    private User user;
+
     private AsyncHttpResponseHandler updateHandler = new AsyncHttpResponseHandler() {
         @Override
         public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
@@ -113,7 +117,6 @@ public class FaceIdentificationActivity extends BaseActivity {
 
 
                 } else {
-                    hideWaitDialog();
 
                     AppContext.showToast(result.getErrormsg());
                 }
@@ -232,7 +235,7 @@ public class FaceIdentificationActivity extends BaseActivity {
                             @Override
                             public void complete(String key, ResponseInfo info, JSONObject response) {
 
-                                System.out.println(info.isOK());
+                                //   System.out.println(info.isOK());
 
 
                                 if (info.isOK()) {
@@ -268,7 +271,7 @@ public class FaceIdentificationActivity extends BaseActivity {
         public void onFailure(int statusCode, Header[] headers,
                               byte[] responseBody, Throwable error) {
 
-            System.out.println(statusCode);
+            // System.out.println(statusCode);
 
             hideWaitDialog();
             AppContext.showToastShort("上传失败～！");
@@ -308,12 +311,16 @@ public class FaceIdentificationActivity extends BaseActivity {
     @Override
     public void initView() {
         actionBar = getSupportActionBar();
+        user = AppContext.getInstance().getLoginUser();
+
+        if (StringUtils.isEmpty(user.getCertificationImageUrl()))
+            ImageLoader.getInstance().displayImage(user.getCertificationImageUrl(), identificationUserImage, ChatFragment.optionsImage);
 
         uploadManager = AppContext.getUploadManager();
 
         identificationButton.setOnClickListener(this);
 
-        if (AppContext.getInstance().getLoginUser().getSecret() == 0) {
+        if (AppContext.getInstance().getLoginUser().getCertification() == 0) {
             identificationState.setText("未认证");
         } else {
             identificationState.setText("已认证");

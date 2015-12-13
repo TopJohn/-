@@ -105,6 +105,7 @@ public class FriendFragment extends BaseFragment {
 
                     friendAdapter = new FriendAdapter();
                     friendAdapter.setData(mDatas);
+                    gridView.setAdapter(friendAdapter);
 
                 } else {
 
@@ -154,6 +155,8 @@ public class FriendFragment extends BaseFragment {
 
     @Override
     public void initData() {
+
+        sendRequestData();
 
     }
 

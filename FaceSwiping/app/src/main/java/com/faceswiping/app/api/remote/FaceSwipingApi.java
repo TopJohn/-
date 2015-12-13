@@ -92,7 +92,7 @@ public class FaceSwipingApi {
 
     public static void getFriends(AsyncHttpResponseHandler handler) {
 
-        String url = "user/secret/";
+        String url = "user/friends";
 
         ApiHttpClient.get(url, handler);
 

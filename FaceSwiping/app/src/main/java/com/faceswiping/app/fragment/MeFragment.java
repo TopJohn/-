@@ -171,7 +171,10 @@ public class MeFragment extends BaseFragment {
 
     @Override
     public void initData() {
-        sendRequestData();
+        //sendRequestData();
+
+
+
     }
 
     @Override
