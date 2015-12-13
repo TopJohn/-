@@ -71,9 +71,10 @@ public class UIHelper {
 
     }
 
-    public static void showMarkNewFriendsActivity(Context context) {
+    public static void showMarkNewFriendsActivity(String url,Context context) {
 
         Intent intent = new Intent(context, MarkNewFriendsActivity.class);
+        intent.putExtra("url",url);
         context.startActivity(intent);
 
     }

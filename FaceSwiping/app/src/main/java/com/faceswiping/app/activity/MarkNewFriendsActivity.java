@@ -1,6 +1,5 @@
 package com.faceswiping.app.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.view.Menu;
@@ -9,8 +8,22 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.faceswiping.app.AppContext;
 import com.faceswiping.app.R;
+import com.faceswiping.app.adapter.MarkedFriendAdapter;
+import com.faceswiping.app.api.remote.FaceSwipingApi;
 import com.faceswiping.app.base.BaseActivity;
+import com.faceswiping.app.bean.FriendBean;
+import com.faceswiping.app.bean.Result;
+import com.faceswiping.app.util.TDevice;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.nostra13.universalimageloader.core.ImageLoader;
+
+import org.apache.http.Header;
+
+import java.util.ArrayList;
 
 import butterknife.InjectView;
 
@@ -22,8 +35,56 @@ public class MarkNewFriendsActivity extends BaseActivity {
     @InjectView(R.id.mark_new_friends_listView)
     ListView friendsListView;
 
+    private String url;
 
     private ActionBar actionBar;
+
+    private MarkedFriendAdapter markedFriendAdapter;
+
+    private AsyncHttpResponseHandler handler = new AsyncHttpResponseHandler() {
+        @Override
+        public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
+
+
+            try {
+
+                String response = new String(responseBody);
+
+                System.out.println(response);
+
+                Result<ArrayList<FriendBean>> result = new Gson().fromJson(response, new TypeToken<Result<ArrayList<FriendBean>>>() {
+                }.getType());
+//
+//                if (result.getErrorcode() == 0) {
+//
+//                    mDatas = result.getData();
+//
+//                    friendAdapter = new FriendAdapter();
+//                    friendAdapter.setData(mDatas);
+//                    gridView.setAdapter(friendAdapter);
+//
+//                } else {
+//
+//                    emptyLayout.setErrorType(EmptyLayout.NETWORK_ERROR);
+//
+//                }
+
+
+            } catch (Exception e) {
+                e.printStackTrace();
+                onFailure(statusCode, headers, responseBody, e);
+            }
+
+        }
+
+        @Override
+        public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
+
+
+
+        }
+    };
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -56,12 +117,28 @@ public class MarkNewFriendsActivity extends BaseActivity {
     @Override
     public void initView() {
 
+        url = getIntent().getStringExtra("url");
+        ImageLoader.getInstance().
+
     }
 
     @Override
     public void initData() {
 
     }
+
+    private void sendRequestData(){
+        if (TDevice.hasInternet()) {
+
+            FaceSwipingApi.getFriends(handler);
+
+        } else {
+
+            AppContext.showToastShort(R.string.tip_no_internet);
+
+        }
+    }
+
 
     @Override
     public void onClick(View v) {

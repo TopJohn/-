@@ -21,7 +21,6 @@ import com.faceswiping.app.api.remote.FaceSwipingApi;
 import com.faceswiping.app.base.BaseActivity;
 import com.faceswiping.app.bean.Result;
 import com.faceswiping.app.bean.User;
-import com.faceswiping.app.fragment.ChatFragment;
 import com.faceswiping.app.util.FileUtil;
 import com.faceswiping.app.util.ImageUtils;
 import com.faceswiping.app.util.StringUtils;
@@ -29,7 +28,9 @@ import com.faceswiping.app.widget.ToggleButton;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 import com.qiniu.android.http.ResponseInfo;
 import com.qiniu.android.storage.UpCompletionHandler;
 import com.qiniu.android.storage.UploadManager;
@@ -93,6 +94,18 @@ public class FaceIdentificationActivity extends BaseActivity {
 
     private User user;
 
+    public static DisplayImageOptions optionsImage = new DisplayImageOptions
+            .Builder()
+            .showImageOnLoading(R.drawable.face_identification_userimage)
+            .showImageForEmptyUri(R.drawable.face_identification_userimage)
+            .showImageOnFail(R.drawable.face_identification_userimage)
+            .cacheInMemory(true)
+            .cacheOnDisk(false)
+            .considerExifParams(true)
+            .bitmapConfig(Bitmap.Config.RGB_565)
+            .imageScaleType(ImageScaleType.EXACTLY)
+            .build();
+
     private AsyncHttpResponseHandler updateHandler = new AsyncHttpResponseHandler() {
         @Override
         public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
@@ -108,11 +121,19 @@ public class FaceIdentificationActivity extends BaseActivity {
 
 //                Result result = JSON.parseObject(response, Result.class);
 
-                Result result = new Gson().fromJson(response, Result.class);
+                Result<String> result = new Gson().fromJson(response, new TypeToken<Result<String>>() {
+                }.getType());
 
                 if (result.getErrorcode() == 0) {
 
                     AppContext.showToast("认证成功～！");
+
+                    user.setCertification(1);
+                    user.setCertificationImageUrl(result.getData());
+
+
+                    AppContext.getInstance().updateUserInfo(user);
+                    identificationState.setText("已认证");
                     identificationUserImage.setImageBitmap(protraitBitmap);
 
 
@@ -131,7 +152,7 @@ public class FaceIdentificationActivity extends BaseActivity {
 
             hideWaitDialog();
 
-            AppContext.showToast("认证失败");
+            AppContext.showToast("认证失败~!");
         }
     };
 
@@ -156,16 +177,19 @@ public class FaceIdentificationActivity extends BaseActivity {
                 if (result.getErrorcode() == 0) {
 
 
-                    User user = result.getData();
+                    User tempUser = result.getData();
 
-                    System.out.println(user.getSecret());
+                    user.setSecret(tempUser.getSecret());
+
 
                     AppContext.getInstance().updateUserInfo(user);
 
                     if (user.getSecret() == 0) {
                         toggleButton.setToggleOff();
+                        identificationButton.setVisibility(View.GONE);
                     } else {
                         toggleButton.setToggleOn();
+                        identificationButton.setVisibility(View.VISIBLE);
                     }
 
                 } else {
@@ -313,8 +337,8 @@ public class FaceIdentificationActivity extends BaseActivity {
         actionBar = getSupportActionBar();
         user = AppContext.getInstance().getLoginUser();
 
-        if (StringUtils.isEmpty(user.getCertificationImageUrl()))
-            ImageLoader.getInstance().displayImage(user.getCertificationImageUrl(), identificationUserImage, ChatFragment.optionsImage);
+        if (user.getCertification()==1&&!StringUtils.isEmpty(user.getCertificationImageUrl()))
+            ImageLoader.getInstance().displayImage(user.getCertificationImageUrl(), identificationUserImage, optionsImage);
 
         uploadManager = AppContext.getUploadManager();
 
@@ -345,17 +369,6 @@ public class FaceIdentificationActivity extends BaseActivity {
                 } else {
 
                     FaceSwipingApi.updateSecret(0, toggleHandler);
-                }
-
-
-                if (on) {
-
-                    identificationButton.setVisibility(View.VISIBLE);
-
-                } else {
-
-                    identificationButton.setVisibility(View.GONE);
-
                 }
 
             }
@@ -454,6 +467,7 @@ public class FaceIdentificationActivity extends BaseActivity {
                 startActionCrop(imageReturnIntent.getData());// 选图后裁剪
                 break;
             case ImageUtils.REQUEST_CODE_GETIMAGE_BYSDCARD:
+                toggleButton.setToggleOn();
                 uploadNewPhoto();//裁减后上传
                 break;
         }
@@ -531,5 +545,7 @@ public class FaceIdentificationActivity extends BaseActivity {
 
 
     }
+
+
 
 }

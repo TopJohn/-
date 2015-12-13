@@ -62,7 +62,7 @@ public class FaceSwipingApi {
 
             jsonObject.put("keys", jsonArray);
 
-            System.out.println(jsonObject);
+            //System.out.println(jsonObject);
 
             stringEntity = new StringEntity(jsonObject.toString(), "utf-8");
 
