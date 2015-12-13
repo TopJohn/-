@@ -1,13 +1,12 @@
 package com.faceswiping.app.activity;
 
 import android.app.Activity;
-import android.media.Image;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.view.Menu;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.faceswiping.app.R;
@@ -15,13 +14,13 @@ import com.faceswiping.app.base.BaseActivity;
 
 import butterknife.InjectView;
 
-public class SendFriendRequestActivity extends BaseActivity {
+public class MarkNewFriendsActivity extends BaseActivity {
 
-    @InjectView(R.id.send_request_requestInfo)
-    EditText inputInformation;
+    @InjectView(R.id.mark_new_friends_image)
+    ImageView friendsImageView;
 
-    @InjectView(R.id.send_request_friendImage)
-    ImageView friendImage;
+    @InjectView(R.id.mark_new_friends_listView)
+    ListView friendsListView;
 
 
     private ActionBar actionBar;
@@ -34,7 +33,7 @@ public class SendFriendRequestActivity extends BaseActivity {
         mActionBar.setCustomView(R.layout.actionbar_custom_view);
         View view = mActionBar.getCustomView();
         TextView textView = (TextView) view.findViewById(R.id.actionbar_title);
-        textView.setText("好友验证");
+        textView.setText("标记好友");
 
         return true;
     }
@@ -42,12 +41,11 @@ public class SendFriendRequestActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_send_friend_request);
     }
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_send_friend_request;
+        return R.layout.activity_mark_new_friends;
     }
 
     @Override
@@ -67,9 +65,6 @@ public class SendFriendRequestActivity extends BaseActivity {
 
     @Override
     public void onClick(View v) {
-        int id = v.getId();
-        switch (id){
 
-        }
     }
 }

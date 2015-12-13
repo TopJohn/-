@@ -9,7 +9,6 @@ public class FriendBean implements Serializable {
 
     private String name;
 
-
     private String headerImageUrl;
 
     public String getName() {

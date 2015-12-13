@@ -10,6 +10,7 @@ import com.faceswiping.app.R;
 import com.faceswiping.app.base.ListBaseAdapter;
 import com.faceswiping.app.bean.FriendBean;
 import com.faceswiping.app.fragment.ChatFragment;
+import com.faceswiping.app.util.UIHelper;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
 import butterknife.ButterKnife;
@@ -62,15 +63,13 @@ public class FriendAdapter extends ListBaseAdapter<FriendBean> {
             vh.im_header.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
+                    UIHelper.shoAddNewFriendsActivity(parent.getContext());
                 }
             });
         } else {
 
             ImageLoader.getInstance().displayImage(friendBean.getHeaderImageUrl(), vh.im_header, ChatFragment.optionsImage);
             vh.tv_name.setText(friendBean.getName());
-
-
         }
 
 
