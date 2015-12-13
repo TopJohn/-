@@ -352,15 +352,14 @@ public class AppContext extends BaseApplication {
 
                 if (user.getNickName() != null)
                     setProperty("user.name", user.getNickName());
-//                if (user.getFace_photo() != null)
-//                    setProperty("user.face", user.getFace_photo());// 用户头像-文件名
-//                if (user.getPhone() != null)
-//                    setProperty("user.phone", user.getPhone());
-//                if (user.getApart_name() != null)
-//                    setProperty("user.apart_name", user.getApart_name());
-//                setProperty("user.favoritecount",
-//                        String.valueOf(user.getFavoritecount()));
-//                setProperty("user.gender", String.valueOf(user.getGender()));
+
+                System.out.println("user.secret"+getProperty("user.secret"));
+
+                System.out.println("user.certification"+getProperty("user.certification"));
+
+                System.out.println("user.certificationImageUrl"+getProperty("user.certificationImageUrl"));
+
+
             }
         });
     }
@@ -380,7 +379,10 @@ public class AppContext extends BaseApplication {
         }
 
         if (getProperty("user.certification") != null) {
-            user.setSecret(Integer.parseInt(getProperty("user.certification")));
+
+
+            user.setCertification(Integer.parseInt(getProperty("user.certification")));
+
         }
 
         if (getProperty("user.certificationImageUrl") != null) {

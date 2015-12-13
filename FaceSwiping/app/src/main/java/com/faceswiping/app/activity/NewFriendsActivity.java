@@ -140,7 +140,7 @@ public class NewFriendsActivity extends BaseActivity implements ListItemClickHel
 
         if (TDevice.hasInternet()) {
             emptyLayout.setErrorType(EmptyLayout.NETWORK_LOADING);
-            FaceSwipingApi.getFriends(handler);
+            FaceSwipingApi.getNewFriendList(handler);
 
         } else {
 

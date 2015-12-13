@@ -86,11 +86,14 @@ public class AddNewFriendActivity extends BaseActivity {
 
 //                Result result = JSON.parseObject(response, Result.class);
 
-                Result result = new Gson().fromJson(response, Result.class);
+                Result<String> result = new Gson().fromJson(response, new TypeToken<Result<String>>() {
+                }.getType());
 
                 if (result.getErrorcode() == 0) {
 
-                    UIHelper.showMarkNewFriendsActivity(AddNewFriendActivity.this);
+                    String url = result.getData();
+
+                    UIHelper.showMarkNewFriendsActivity(url, AddNewFriendActivity.this);
 
                 } else {
 
@@ -107,7 +110,7 @@ public class AddNewFriendActivity extends BaseActivity {
 
             hideWaitDialog();
 
-            AppContext.showToast("上传成功～！");
+            AppContext.showToast("上传失败～！");
         }
     };
 
@@ -167,7 +170,7 @@ public class AddNewFriendActivity extends BaseActivity {
                                 } else {
 
                                     hideWaitDialog();
-                                    AppContext.showToast("认证失败～！");
+                                    AppContext.showToast("上传失败～！");
                                 }
 
 
@@ -255,7 +258,7 @@ public class AddNewFriendActivity extends BaseActivity {
     public void initView() {
 
         addFriendLayout.setOnClickListener(this);
-
+        uploadManager = AppContext.getUploadManager();
         if (AppContext.getInstance().getLoginUser().getSecret() == 0) {
             addFriendState.setVisibility(View.VISIBLE);
         } else {

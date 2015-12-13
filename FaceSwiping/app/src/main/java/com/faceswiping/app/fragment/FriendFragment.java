@@ -96,7 +96,9 @@ public class FriendFragment extends BaseFragment {
 
                 String response = new String(responseBody);
 
-                Result<ArrayList<FriendBean>> result = new Gson().fromJson(response, new TypeToken<ArrayList<FriendBean>>() {
+                System.out.println(response);
+
+                Result<ArrayList<FriendBean>> result = new Gson().fromJson(response, new TypeToken<Result<ArrayList<FriendBean>>>() {
                 }.getType());
 
                 if (result.getErrorcode() == 0) {
