@@ -12,14 +12,14 @@
 
         <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/face_identification_userImage"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
             android:layout_centerInParent="true"
             android:layout_gravity="center_horizontal"
             android:scaleType="fitCenter"
-            android:src="@drawable/app_icon"
+            android:src="@drawable/face_identification_userimage"
             app:riv_border_color="#333333"
-            app:riv_border_width="1.5dip"
+            app:riv_border_width="0dip"
             app:riv_corner_radius="30dip"
             app:riv_mutate_background="true"
             app:riv_oval="true" />
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="20dp"
-            android:src="@drawable/my_wallet" />
+            android:src="@drawable/face_identification_icon" />
 
 
         <TextView
@@ -52,6 +52,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="15dp"
             android:layout_weight="1"
+            android:singleLine="true"
             android:text="开启刷脸加好友"
             android:textColor="@color/done_text_color_normal"
             android:textSize="16sp" />
@@ -90,7 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="20dp"
-            android:src="@drawable/my_wallet" />
+            android:src="@drawable/face_identification_camera" />
 
 
         <LinearLayout
@@ -139,8 +140,6 @@
         android:layout_width="match_parent"
         android:layout_height="1px"
         android:background="@color/gray_line" />
-
-    s
 
     <TextView
         android:layout_width="wrap_content"

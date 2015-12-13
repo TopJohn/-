@@ -6,11 +6,48 @@
     android:orientation="vertical"
     tools:context="com.faceswiping.app.activity.AddNewFriendActivity">
 
-    <SearchView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="44dp"
+        android:background="#E7E7EF"
+        android:orientation="horizontal">
 
-    </SearchView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/search_view"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/search" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="搜索"
+                    android:textColor="@color/gray_text_color"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,7 +63,7 @@
         <LinearLayout
             android:id="@+id/add_friend_faceAddFriendLayout"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="70dp"
             android:background="@drawable/list_item_background"
             android:orientation="horizontal">
 
@@ -35,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="20dp"
-                android:src="@drawable/my_wallet" />
+                android:src="@drawable/add_new_friend" />
 
 
             <TextView
@@ -54,7 +91,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginRight="20dp"
-                android:text="已开通"/>
+                android:text="去开通"
+                android:visibility="gone"/>
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -73,7 +111,7 @@
         <LinearLayout
             android:id="@+id/add_friend_faceAddContactFriendLayout"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="70dp"
             android:background="@drawable/list_item_background"
             android:orientation="horizontal">
 
@@ -82,7 +120,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="20dp"
-                android:src="@drawable/my_discount" />
+                android:src="@drawable/add_new_friend_contact" />
 
 
             <TextView
@@ -112,7 +150,7 @@
         <LinearLayout
             android:id="@+id/add_friend_faceAddWeiXinFriendLayout"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="70dp"
             android:background="@drawable/list_item_background"
             android:orientation="horizontal">
 
@@ -121,7 +159,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="20dp"
-                android:src="@drawable/notification" />
+                android:src="@drawable/add_new_friend_weixin" />
 
 
             <TextView
@@ -151,7 +189,7 @@
         <LinearLayout
             android:id="@+id/add_friend_faceAddQQFriendLayout"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="70dp"
             android:background="@drawable/list_item_background"
             android:orientation="horizontal">
 
@@ -160,7 +198,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="20dp"
-                android:src="@drawable/notification" />
+                android:src="@drawable/add_new_friend_qq" />
 
 
             <TextView

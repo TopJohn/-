@@ -40,15 +40,15 @@ import butterknife.InjectView;
 public class FriendFragment extends BaseFragment {
 
 
-    @InjectView(R.id.fragment_gridView)
-    GridView gridView;
-
-
     private FriendAdapter friendAdapter;
 
     private ArrayList<FriendBean> mDatas;
 
     private MainActivity mainActivity;
+
+    @InjectView(R.id.fragment_friend_gridView)
+    GridView gridView;
+
 
     private ActionBar actionBar;
 
@@ -140,7 +140,6 @@ public class FriendFragment extends BaseFragment {
         return view;
     }
 
-
     @Override
     public void initView(View view) {
 
@@ -151,21 +150,11 @@ public class FriendFragment extends BaseFragment {
                 sendRequestData();
             }
         });
-
-
     }
 
     @Override
     public void initData() {
-
-        sendRequestData();
-
-    }
-
-    @Override
-    public void onClick(View v) {
-
-
+        
     }
 
     private void sendRequestData() {
@@ -179,6 +168,7 @@ public class FriendFragment extends BaseFragment {
             AppContext.showToastShort(R.string.tip_no_internet);
 
         }
+
 
     }
 
