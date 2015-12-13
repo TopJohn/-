@@ -39,6 +39,11 @@ public class FriendAdapter extends ListBaseAdapter<FriendBean> {
     }
 
     @Override
+    public int getCount() {
+        return super.getCount() + 1;
+    }
+
+    @Override
     protected View getRealView(int position, View convertView, final ViewGroup parent) {
         ViewHolder vh = null;
         LayoutInflater inflater = getLayoutInflater(parent.getContext());
@@ -52,10 +57,6 @@ public class FriendAdapter extends ListBaseAdapter<FriendBean> {
 
         }
 
-        FriendBean friendBean = mDatas.get(position);
-
-        vh.tv_name.setText(friendBean.getName());
-
 
         if (position == 0) {
             vh.im_header.setImageResource(R.drawable.add_friend);
@@ -67,7 +68,8 @@ public class FriendAdapter extends ListBaseAdapter<FriendBean> {
                 }
             });
         } else {
-
+            FriendBean friendBean = mDatas.get(position-1);
+            vh.tv_name.setText(friendBean.getName());
             ImageLoader.getInstance().displayImage(friendBean.getHeaderImageUrl(), vh.im_header, ChatFragment.optionsImage);
             vh.tv_name.setText(friendBean.getName());
         }

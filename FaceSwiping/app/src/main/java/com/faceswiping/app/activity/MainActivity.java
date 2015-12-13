@@ -29,6 +29,7 @@ import com.faceswiping.app.cache.DataCleanManager;
 import com.faceswiping.app.interf.BaseViewInterface;
 import com.faceswiping.app.interf.OnTabReselectListener;
 import com.faceswiping.app.util.DoubleClickExitHelper;
+import com.faceswiping.app.util.UIHelper;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
@@ -117,7 +118,7 @@ public class MainActivity extends ActionBarActivity implements
         if (fromWhich != null) {
             boolean fromNoticeBar = fromWhich.getBooleanExtra("NOTICE", false);
             if (fromNoticeBar) {
-                //UIHelper.showNotificationListActivity(this);
+                UIHelper.showNewFriendsActivity(this);
             }
         }
     }

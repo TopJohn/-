@@ -1,6 +1,5 @@
 package com.faceswiping.app.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.view.Menu;
@@ -8,51 +7,86 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.faceswiping.app.AppContext;
 import com.faceswiping.app.R;
 import com.faceswiping.app.adapter.NewFriendAdapter;
+import com.faceswiping.app.api.remote.FaceSwipingApi;
 import com.faceswiping.app.base.BaseActivity;
 import com.faceswiping.app.bean.NewFriendBean;
+import com.faceswiping.app.bean.Result;
+import com.faceswiping.app.util.TDevice;
+import com.faceswiping.app.widget.EmptyLayout;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.loopj.android.http.AsyncHttpResponseHandler;
+
+import org.apache.http.Header;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import butterknife.InjectView;
 
 public class NewFriendsActivity extends BaseActivity {
 
+
+
     @InjectView(R.id.new_friends_listView)
     ListView friendsListView;
+
+    @InjectView(R.id.error_layout)
+    EmptyLayout emptyLayout;
 
     private NewFriendAdapter adapter;
 
     private ArrayList<NewFriendBean> mDatas;
 
-    private String json = "[{\n" +
-            "  \"name\": \"新的好友\",\n" +
-            "  \"headImageUrl\": \"http://7xp4qa.com1.z0.glb.clouddn.com/1.png\",\n" +
-            "  \"content\": \"TianTian通过“刷脸加好友”加你为好友\",\n" +
-            "  \"fromResource\": \"来源:刷脸加好友\"\n" +
-            "  \"isAddedFriend\": \"0\"\n" +
-            "  \"groupImageUrl\": \"http://7xp4qa.com1.z0.glb.clouddn.com/0.png\"\n" +
-            "}, {\n" +
-            "  \"name\": \"RedLight\",\n" +
-            "  \"headImageUrl\": \"http://7xp4qa.com1.z0.glb.clouddn.com/2.png\",\n" +
-            "  \"content\": \"我想要你和你一起去！\",\n" +
-            "  \"fromResource\": \"来源:刷脸加好友\"\n" +
-            "  \"isAddedFriend\": \"1\"\n" +
-            "  \"groupImageUrl\": \"http://7xp4qa.com1.z0.glb.clouddn.com/0.png\"\n" +
-            "},{\n" +
-            "  \"name\": \"Yanxin\",\n" +
-            "  \"headImageUrl\": \"http://7xp4qa.com1.z0.glb.clouddn.com/6.png\",\n" +
-            "  \"content\": \"我想要和你一起去上海参加比赛！\",\n" +
-            "  \"fromResource\": \"来源:刷脸加好友\"\n" +
-            "  \"isAddedFriend\": \"0\"\n" +
-            "  \"groupImageUrl\": \"http://7xp4qa.com1.z0.glb.clouddn.com/0.png\"\n" +
-            "}]\n";
 
     private ActionBar actionBar;
+
+
+    private AsyncHttpResponseHandler handler = new AsyncHttpResponseHandler() {
+        @Override
+        public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
+
+            emptyLayout.setErrorType(EmptyLayout.HIDE_LAYOUT);
+
+            try {
+
+                String response = new String(responseBody);
+
+                Result<ArrayList<NewFriendBean>> result = new Gson().fromJson(response, new TypeToken<ArrayList<NewFriendBean>>() {
+                }.getType());
+
+                if (result.getErrorcode() == 0) {
+
+                    mDatas = result.getData();
+
+                    adapter = new NewFriendAdapter();
+                    adapter.setData(mDatas);
+                    friendsListView.setAdapter(adapter);
+
+                } else {
+
+                    emptyLayout.setErrorType(EmptyLayout.NETWORK_ERROR);
+
+                }
+
+
+            } catch (Exception e) {
+                e.printStackTrace();
+                onFailure(statusCode, headers, responseBody, e);
+            }
+
+        }
+
+        @Override
+        public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
+
+            emptyLayout.setErrorType(EmptyLayout.NETWORK_ERROR);
+
+        }
+    };
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -86,17 +120,37 @@ public class NewFriendsActivity extends BaseActivity {
     @Override
     public void initView() {
 
+        emptyLayout.setOnLayoutClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendRequestData();
+            }
+        });
+
     }
 
     @Override
     public void initData() {
-        adapter = new NewFriendAdapter();
 
-        mDatas = new Gson().fromJson(json, new TypeToken<List<NewFriendBean>>() {
-        }.getType());
+        sendRequestData();
 
-        adapter.setData(mDatas);
-        friendsListView.setAdapter(adapter);
+    }
+
+
+
+    private void sendRequestData() {
+
+        if (TDevice.hasInternet()) {
+            emptyLayout.setErrorType(EmptyLayout.NETWORK_LOADING);
+            FaceSwipingApi.getFriends(handler);
+
+        } else {
+
+            AppContext.showToastShort(R.string.tip_no_internet);
+
+        }
+
+
     }
 
     @Override

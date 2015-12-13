@@ -46,9 +46,9 @@ public class PushBroadCastReceiver extends BroadcastReceiver {
 
                 byte[] payload = bundle.getByteArray("payload");
 
-                String sticker = "您收到了一笔交租～！";
+                String sticker = "您收到了一个好友请求～！";
 
-                String contentTitle = "收租详情";
+                String contentTitle = "好友请求";
 
                 String contentText = new String(payload);
 

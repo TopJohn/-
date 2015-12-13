@@ -106,4 +106,12 @@ public class FaceSwipingApi {
 
     }
 
+    public static void getNewFriendList(AsyncHttpResponseHandler handler) {
+
+        String url = "user/secret/";
+
+        ApiHttpClient.get(url, handler);
+
+    }
+
 }

@@ -90,7 +90,7 @@ public class FriendFragment extends BaseFragment {
         @Override
         public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
 
-            hideWaitDialog();
+            emptyLayout.setErrorType(EmptyLayout.HIDE_LAYOUT);
 
             try {
 
@@ -125,6 +125,7 @@ public class FriendFragment extends BaseFragment {
         public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
 
             emptyLayout.setErrorType(EmptyLayout.NETWORK_ERROR);
+
 
         }
     };

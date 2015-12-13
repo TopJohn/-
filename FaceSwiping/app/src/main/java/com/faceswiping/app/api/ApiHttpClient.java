@@ -8,8 +8,10 @@ import com.faceswiping.app.util.TLog;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
+
 import org.apache.http.HttpEntity;
 import org.apache.http.client.params.ClientPNames;
+
 import java.util.Locale;
 
 
@@ -17,6 +19,9 @@ public class ApiHttpClient {
 
 //    public final static String HOST = "115.159.152.203:8080";
 //    private static String API_URL = "http://115.159.152.203:8080/%s";
+
+//    public final static String HOST = "10.73.197.40:8080";
+//    private static String API_URL = "http://10.73.197.40:8080/%s";
 
     public final static String HOST = "10.73.198.56:8080";
     private static String API_URL = "http://10.73.198.56:8080/%s";
