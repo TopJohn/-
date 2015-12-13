@@ -201,7 +201,9 @@ public class FaceIdentificationActivity extends BaseActivity {
                         protraitBitmap = ImageUtils
                                 .loadImgThumbnail(protraitPath, 200, 200);
                     } else {
+                        hideWaitDialog();
                         AppContext.showToast("图像不存在，上传失败");
+                        return;
                     }
                     if (protraitBitmap != null) {
 
