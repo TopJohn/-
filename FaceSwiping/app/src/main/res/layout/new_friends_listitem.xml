@@ -4,24 +4,26 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:orientation="horizontal"
         android:background="#ffffff">
 
         <com.makeramen.roundedimageview.RoundedImageView
             android:id="@+id/new_friends_listItem_friendImage"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
             android:layout_marginLeft="20dp"
             android:src="@drawable/header_4" />
 
         <LinearLayout
             android:id="@+id/new_friends_listItem_friendInfoLayout"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
             android:layout_marginLeft="20dp"
             android:layout_toRightOf="@id/new_friends_listItem_friendImage"
             android:orientation="vertical">
@@ -55,10 +57,9 @@
             android:id="@+id/new_friends_listItem_receiveLayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp">
-
             <TextView
                 android:id="@+id/new_friends_listItem_friendReceiveButton"
                 android:layout_width="wrap_content"
@@ -75,11 +76,9 @@
                 android:layout_gravity="center_vertical"
                 android:text="已添加"
                 android:visibility="gone" />
-
-
         </FrameLayout>
 
-    </RelativeLayout>
+    </LinearLayout>
 
     <ImageView
         android:id="@+id/new_friends_listItem_friendGroupPhoto"
