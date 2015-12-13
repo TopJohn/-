@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/marked_ll_root_view"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/list_item_background"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/marked_im_header"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:scaleType="fitCenter"
+            app:riv_corner_radius="4dip"
+            app:riv_mutate_background="true"
+            app:riv_oval="false" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/marked_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/done_text_color_normal"
+                android:textSize="16sp"
+                tools:text="张鑫" />
+
+            <TextView
+                android:id="@+id/marked_tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/gray_text_color"
+                android:textSize="12sp"
+                tools:text="刷脸加好友好赞啊～！" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/marked_tv_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/newfriends_listitem_buttonshape_receive"
+                android:gravity="center_vertical"
+                android:text="添加"
+                android:textColor="#F28471" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
