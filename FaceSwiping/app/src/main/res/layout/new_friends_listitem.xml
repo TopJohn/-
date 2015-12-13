@@ -9,7 +9,7 @@
         android:layout_height="100dp"
         android:background="#ffffff">
 
-        <ImageView
+        <com.makeramen.roundedimageview.RoundedImageView
             android:id="@+id/new_friends_listItem_friendImage"
             android:layout_width="80dp"
             android:layout_height="80dp"
@@ -83,8 +83,8 @@
 
     <ImageView
         android:id="@+id/new_friends_listItem_friendGroupPhoto"
+        android:src="@drawable/main_background"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:visibility="gone" />
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

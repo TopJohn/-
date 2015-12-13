@@ -96,7 +96,7 @@ public class ChatAdapter extends ListBaseAdapter<ChatBean> {
             vh.ll_root_view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    UIHelper.showAddNewFriendActivity(parent.getContext());
+                    UIHelper.showNewFriendsActivity(parent.getContext());
                 }
             });
         }

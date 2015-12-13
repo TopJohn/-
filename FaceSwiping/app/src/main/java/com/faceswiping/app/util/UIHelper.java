@@ -8,6 +8,7 @@ import com.faceswiping.app.activity.AddNewFriendActivity;
 import com.faceswiping.app.activity.FaceIdentificationActivity;
 import com.faceswiping.app.activity.LoginActivity;
 import com.faceswiping.app.activity.MainActivity;
+import com.faceswiping.app.activity.NewFriendsActivity;
 import com.faceswiping.app.activity.SecretSettingActivity;
 
 /**
@@ -55,7 +56,14 @@ public class UIHelper {
 
     }
 
-    public static void showAddNewFriendActivity(Context context) {
+    public static void showNewFriendsActivity(Context context) {
+
+        Intent intent = new Intent(context, NewFriendsActivity.class);
+        context.startActivity(intent);
+
+    }
+
+    public static void shoAddNewFriendsActivity(Context context) {
 
         Intent intent = new Intent(context, AddNewFriendActivity.class);
         context.startActivity(intent);
