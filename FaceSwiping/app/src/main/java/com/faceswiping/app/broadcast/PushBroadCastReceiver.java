@@ -92,13 +92,13 @@ public class PushBroadCastReceiver extends BroadcastReceiver {
                     FaceSwipingApi.sendClientId(clientId, new AsyncHttpResponseHandler() {
                         @Override
                         public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
-                            AppContext.showToast("绑定成功～～！！");
+                            //AppContext.showToast("绑定成功～～！！");
 
                         }
 
                         @Override
                         public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
-                            AppContext.showToast("绑定失败～～！！");
+                            //AppContext.showToast("绑定失败～～！！");
 
                         }
                     });
