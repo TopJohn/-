@@ -626,6 +626,7 @@
     <string name="tip_message_public_faile">发送失败</string>
     <string name="send_to">发给</string>
     <string name="message_count">%s条留言</string>
+    <string name="send">发送</string>
 
     <string name="confirm_delete_message">确定要删除和\"%s\"的所有留言吗?</string>
     <string name="confirm_delete_one_message">确定要删除这条留言吗?</string>

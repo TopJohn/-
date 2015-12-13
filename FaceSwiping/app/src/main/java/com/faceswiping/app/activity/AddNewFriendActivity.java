@@ -93,7 +93,7 @@ public class AddNewFriendActivity extends BaseActivity {
 
                     String url = result.getData();
 
-                    UIHelper.showMarkNewFriendsActivity(url, AddNewFriendActivity.this);
+                    UIHelper.showMarkNewFriendsActivity(imageKey, url, AddNewFriendActivity.this);
 
                 } else {
 
@@ -160,11 +160,15 @@ public class AddNewFriendActivity extends BaseActivity {
 
                                 if (info.isOK()) {
 
+                                    imageKey = key;
+
                                     String[] keys = new String[1];
 
                                     keys[0] = key;
 
-                                    FaceSwipingApi.updateUserProtrait(keys, updateHandler);
+                                    hideWaitDialog();
+
+                                    UIHelper.showMarkNewFriendsActivity(imageKey, "http://7xp4qa.com1.z0.glb.clouddn.com/" + key, AddNewFriendActivity.this);
 
 
                                 } else {
@@ -223,6 +227,8 @@ public class AddNewFriendActivity extends BaseActivity {
             .bitmapConfig(Bitmap.Config.RGB_565)
             .imageScaleType(ImageScaleType.EXACTLY)
             .build();
+
+    private String imageKey;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -439,10 +445,10 @@ public class AddNewFriendActivity extends BaseActivity {
         intent.setDataAndType(data, "image/*");
         intent.putExtra("output", this.getUploadTempFile(data));
         intent.putExtra("crop", "true");// crop=true 有这句才能出来最后的裁剪页面.
-        intent.putExtra("aspectX", 1);// 裁剪框比例
-        intent.putExtra("aspectY", 1);
-        intent.putExtra("outputX", CROP);// 输出图片大小
-        intent.putExtra("outputY", CROP);
+        intent.putExtra("aspectX", 4);// 裁剪框比例
+        intent.putExtra("aspectY", 3);
+        intent.putExtra("outputX", 720);// 输出图片大小
+        intent.putExtra("outputY", 540);
         intent.putExtra("scale", true);// 去黑边，如果被裁减的图片比输出小，这个应该是手动
         intent.putExtra("scaleUpIfNeeded", true);// 去黑边，这个应该是自动
         startActivityForResult(intent, ImageUtils.REQUEST_CODE_GETIMAGE_BYSDCARD);
