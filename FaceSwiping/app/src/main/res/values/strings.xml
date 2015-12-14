@@ -479,6 +479,7 @@
     <string name="zhuceshibai">注册失败</string>
     <string name="tip_no_internet">当前没有可用的网络链接</string>
     <string name="tip_receive_fail">接受失败</string>
+    <string name="tip_receive_success">接受成功</string>
     <string name="zhengzaijieyue">正在解约～！</string>
 
     <string name="yuetixian">余额提现</string>

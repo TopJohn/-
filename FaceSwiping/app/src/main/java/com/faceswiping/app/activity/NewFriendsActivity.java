@@ -189,6 +189,7 @@ public class NewFriendsActivity extends BaseActivity implements ListItemClickHel
                 }.getType());
 
                 if (result.getErrorcode() == 0) {
+                    hideWaitDialog();
                     //receive success
                     mDatas.remove(currentReceiveFriend);
                     NewFriendBean receivedFriend = new NewFriendBean();
@@ -196,8 +197,9 @@ public class NewFriendsActivity extends BaseActivity implements ListItemClickHel
                     receivedFriend.setHeadImageUrl(currentReceiveFriend.getHeadImageUrl());
                     mDatas.add(0, receivedFriend);
                     adapter.notifyDataSetChanged();
-                    
+                    AppContext.showToastShort(R.string.tip_receive_success);
                 } else {
+                    hideWaitDialog();
                     AppContext.showToastShort(R.string.tip_receive_fail);
                 }
 
@@ -217,6 +219,7 @@ public class NewFriendsActivity extends BaseActivity implements ListItemClickHel
     //receive button click
     @Override
     public void onClick(View item, View widget, int position, int which) {
+        showWaitDialog("接受中...");
         currentReceiveFriend = mDatas.get(position);
         System.out.println("position:" + position);
         FaceSwipingApi.getFriendsAccept(currentReceiveFriend.getUserId(),handler1);
