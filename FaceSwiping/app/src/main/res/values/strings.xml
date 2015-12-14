@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">刷脸加好友</string>
+    <string name="app_name">Face+</string>
 
     <string name="house_name">柚子公寓</string>
     <string name="house_resource">资产 0 套</string>
@@ -738,7 +738,7 @@
     <string name="tip_report_success">举报成功</string>
     <string name="tip_report_faile">举报失败</string>
 
-    <string name="tip_double_click_exit">再次点击退出柚子房东</string>
+    <string name="tip_double_click_exit">再次点击退出Face+</string>
 
 
     <string name="team_dynamic">团队动态</string>

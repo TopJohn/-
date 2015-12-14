@@ -2,6 +2,7 @@ package com.faceswiping.app.fragment;
 
 
 import android.app.Activity;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBar;
@@ -26,7 +27,9 @@ import com.faceswiping.app.util.UIHelper;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 
 import org.apache.http.Header;
 
@@ -166,6 +169,7 @@ public class MeFragment extends BaseFragment {
     public void initView(View view) {
 
         mySecret.setOnClickListener(this);
+        fillUI();
 
     }
 
@@ -216,12 +220,25 @@ public class MeFragment extends BaseFragment {
     }
 
     private void fillUI() {
-
-        ImageLoader.getInstance().displayImage(user.getHeadImageUrl(), userImage, ChatFragment.optionsImage);
+        user = AppContext.getInstance().getLoginUser();
+        ImageLoader.getInstance().displayImage(user.getHeadImageUrl(), userImage, optionsImage);
         userName.setText(user.getNickName());
         userDescribe.setText(user.getIntroduction());
 
 
     }
+
+    //是一些小图，放在内存中
+    public static DisplayImageOptions optionsImage = new DisplayImageOptions
+            .Builder()
+            .showImageOnLoading(R.drawable.app_icon1)
+            .showImageForEmptyUri(R.drawable.app_icon1)
+            .showImageOnFail(R.drawable.app_icon1)
+            .cacheInMemory(true)
+            .cacheOnDisk(false)
+            .considerExifParams(true)
+            .bitmapConfig(Bitmap.Config.RGB_565)
+            .imageScaleType(ImageScaleType.EXACTLY)
+            .build();
 
 }

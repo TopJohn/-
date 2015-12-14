@@ -1,5 +1,6 @@
 package com.faceswiping.app.adapter;
 
+import android.graphics.Bitmap;
 import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,8 +12,10 @@ import com.faceswiping.app.R;
 import com.faceswiping.app.base.ListBaseAdapter;
 import com.faceswiping.app.bean.NewFriendBean;
 import com.faceswiping.app.fragment.ChatFragment;
+import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.faceswiping.app.interf.*;
+import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
@@ -21,6 +24,17 @@ import butterknife.InjectView;
  * Created by wanglin on 15/12/13.
  */
 public class NewFriendAdapter extends ListBaseAdapter<NewFriendBean> {
+
+    //是一些小图，放在内存中
+    public static DisplayImageOptions optionsImage = new DisplayImageOptions
+            .Builder()
+            .cacheInMemory(true)
+            .cacheOnDisk(false)
+            .considerExifParams(true)
+            .bitmapConfig(Bitmap.Config.RGB_565)
+            .imageScaleType(ImageScaleType.EXACTLY)
+            .build();
+
 
     private ListItemClickHelp callback;
 
@@ -71,7 +85,7 @@ public class NewFriendAdapter extends ListBaseAdapter<NewFriendBean> {
         }
 
         NewFriendBean newFriendBean = mDatas.get(position);
-        ImageLoader.getInstance().displayImage(newFriendBean.getHeadImageUrl(), vh.nf_friendImage, ChatFragment.optionsImage);
+        ImageLoader.getInstance().displayImage(newFriendBean.getHeadImageUrl(), vh.nf_friendImage, optionsImage);
         vh.nf_friendInfo.setText("你好,很高兴认识你~!");
 
         if (newFriendBean.getName() != null) {
@@ -88,7 +102,7 @@ public class NewFriendAdapter extends ListBaseAdapter<NewFriendBean> {
 
             vh.nf_friendName.setText(newFriendBean.getUserName());
             vh.nf_requestFrom.setText("来源:刷脸加好友");
-            ImageLoader.getInstance().displayImage(newFriendBean.getImageUrl(), vh.nf_friendGroupImage, ChatFragment.optionsImage);
+            ImageLoader.getInstance().displayImage(newFriendBean.getImageUrl(), vh.nf_friendGroupImage, optionsImage);
             vh.nf_receiveButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

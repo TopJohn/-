@@ -19,7 +19,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="20dp"
             android:scaleType="fitCenter"
-            app:riv_corner_radius="4dip"
+            app:riv_corner_radius="18dip"
             app:riv_mutate_background="true"
             app:riv_oval="false" />
 
@@ -65,7 +65,7 @@
                 android:background="@drawable/newfriends_listitem_buttonshape_receive"
                 android:gravity="center_vertical"
                 android:text="添加"
-                android:textColor="#F28471" />
+                android:textColor="@color/day_colorPrimary" />
 
         </LinearLayout>
 

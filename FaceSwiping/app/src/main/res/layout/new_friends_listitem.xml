@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -7,8 +9,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:orientation="horizontal"
-        android:background="#ffffff">
+        android:background="#ffffff"
+        android:orientation="horizontal">
 
         <com.makeramen.roundedimageview.RoundedImageView
             android:id="@+id/new_friends_listItem_friendImage"
@@ -16,16 +18,20 @@
             android:layout_height="80dp"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="20dp"
-            android:src="@drawable/header_4" />
+            android:scaleType="fitCenter"
+            app:riv_corner_radius="18dip"
+            app:riv_mutate_background="true"
+            app:riv_oval="false"
+            tools:src="@drawable/header_4" />
 
         <LinearLayout
             android:id="@+id/new_friends_listItem_friendInfoLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="20dp"
             android:layout_toRightOf="@id/new_friends_listItem_friendImage"
+            android:layout_weight="1"
             android:orientation="vertical">
 
             <TextView
@@ -60,6 +66,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp">
+
             <TextView
                 android:id="@+id/new_friends_listItem_friendReceiveButton"
                 android:layout_width="wrap_content"
@@ -67,7 +74,7 @@
                 android:background="@drawable/newfriends_listitem_buttonshape_receive"
                 android:gravity="center_vertical"
                 android:text="接受"
-                android:textColor="#F28471" />
+                android:textColor="@color/day_colorPrimary" />
 
             <TextView
                 android:id="@+id/new_friends_listItem_friendReceivedView"
@@ -82,10 +89,10 @@
 
     <ImageView
         android:id="@+id/new_friends_listItem_friendGroupPhoto"
-        android:src="@drawable/main_background"
         android:layout_width="match_parent"
-        android:scaleType="centerCrop"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="2dp"/>
+        android:layout_marginBottom="2dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/main_background" />
 
 </LinearLayout>

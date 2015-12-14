@@ -138,7 +138,7 @@
         <item name="actionBarSize">48dp</item>
 
         <!--取消actionbar下的阴影-->
-        <!-- <item name="android:windowContentOverlay">@null</item>-->
+         <item name="android:windowContentOverlay">@null</item>
 
         <item name="quickoption_icon_text_selector">@drawable/day_quickoption_icon_text_selector
         </item>
