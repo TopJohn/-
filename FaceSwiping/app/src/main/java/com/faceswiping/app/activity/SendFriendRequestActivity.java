@@ -1,5 +1,6 @@
 package com.faceswiping.app.activity;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.view.Menu;
@@ -13,6 +14,7 @@ import com.faceswiping.app.R;
 import com.faceswiping.app.api.remote.FaceSwipingApi;
 import com.faceswiping.app.base.BaseActivity;
 import com.faceswiping.app.bean.Result;
+import com.faceswiping.app.util.DialogHelp;
 import com.faceswiping.app.util.TDevice;
 import com.google.gson.Gson;
 import com.loopj.android.http.AsyncHttpResponseHandler;
@@ -54,7 +56,12 @@ public class SendFriendRequestActivity extends BaseActivity {
 
                 if (result.getErrorcode() == 0) {
 
-                    finish();
+                    DialogHelp.getMessageDialog(SendFriendRequestActivity.this, "好友请求发送成功～！", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            finish();
+                        }
+                    }).create().show();
 
                 } else {
 

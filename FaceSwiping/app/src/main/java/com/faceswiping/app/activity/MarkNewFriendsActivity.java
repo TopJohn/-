@@ -137,12 +137,7 @@ public class MarkNewFriendsActivity extends BaseActivity {
 
     @Override
     public void initView() {
-<<<<<<< HEAD
 
-//        url = getIntent().getStringExtra("url");
-//        ImageLoader.getInstance().
-
-=======
         url = getIntent().getStringExtra("url");
         key = getIntent().getStringExtra("key");
         ImageLoader.getInstance().displayImage(url, friendsImageView, optionsImage);
@@ -154,7 +149,7 @@ public class MarkNewFriendsActivity extends BaseActivity {
                 sendRequestData();
             }
         });
->>>>>>> 6c5751fe6666751990e52ce41bb0d7e4e8486545
+
     }
 
     @Override
