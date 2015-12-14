@@ -228,6 +228,7 @@ public class MeFragment extends BaseFragment {
 
     private void fillUI() {
         user = AppContext.getInstance().getLoginUser();
+
         ImageLoader.getInstance().displayImage(user.getHeadImageUrl(), userImage, optionsImage);
         userName.setText(user.getNickName());
         //userDescribe.setText(user.getIntroduction());

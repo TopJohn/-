@@ -17,20 +17,14 @@ public class NewFriendBean implements Serializable {
 
     private String imageUrl;
 
+    private String headImageUrl;
+
     public int getUserId() {
         return userId;
     }
 
     public void setUserId(int userId) {
         this.userId = userId;
-    }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
     }
 
     public String getName() {
@@ -41,12 +35,20 @@ public class NewFriendBean implements Serializable {
         this.name = name;
     }
 
-    public String getHeadImageUrl() {
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getHeaderImageUrl() {
         return headerImageUrl;
     }
 
-    public void setHeadImageUrl(String headImageUrl) {
-        this.headerImageUrl = headImageUrl;
+    public void setHeaderImageUrl(String headerImageUrl) {
+        this.headerImageUrl = headerImageUrl;
     }
 
     public String getImageUrl() {
@@ -55,5 +57,13 @@ public class NewFriendBean implements Serializable {
 
     public void setImageUrl(String imageUrl) {
         this.imageUrl = imageUrl;
+    }
+
+    public String getHeadImageUrl() {
+        return headImageUrl;
+    }
+
+    public void setHeadImageUrl(String headImageUrl) {
+        this.headImageUrl = headImageUrl;
     }
 }

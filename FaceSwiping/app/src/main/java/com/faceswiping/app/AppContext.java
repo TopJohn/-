@@ -313,6 +313,9 @@ public class AppContext extends BaseApplication {
                 if (user.getCertificationImageUrl() != null)
                     setProperty("user.certificationImageUrl", user.getCertificationImageUrl());
 
+                if (user.getHeadImageUrl() != null)
+                    setProperty("user.headImageUrl", user.getHeadImageUrl());
+
                 // setProperty("user.face", user.getFace_photo());// 用户头像-文件名
                 //setProperty("user.phone", user.getPhone());
                 //  setProperty("user.apart_name", user.getApart_name());
@@ -389,6 +392,9 @@ public class AppContext extends BaseApplication {
             user.setCertificationImageUrl(getProperty("user.certificationImageUrl"));
         }
 
+        if (getProperty("user.headImageUrl") != null) {
+            user.setHeadImageUrl(getProperty("user.headImageUrl"));
+        }
 
         //user.setFace_photo(getProperty("user.face"));
         //user.setPhone(getProperty("user.phone"));

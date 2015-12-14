@@ -89,8 +89,7 @@ public class NewFriendAdapter extends ListBaseAdapter<NewFriendBean> {
 
         //System.out.println(newFriendBean.getHeadImageUrl());
 
-        ImageLoader.getInstance().displayImage(newFriendBean.getHeadImageUrl(), vh.nf_friendImage, optionsImage);
-        vh.nf_friendInfo.setText("你好,很高兴认识你~!");
+
 
         if (newFriendBean.getName() != null) {
             vh.nf_friendGroupImage.setVisibility(View.GONE);
@@ -98,11 +97,17 @@ public class NewFriendAdapter extends ListBaseAdapter<NewFriendBean> {
             vh.nf_requestFrom.setVisibility(View.GONE);
             vh.nf_receivedView.setVisibility(View.VISIBLE);
             vh.nf_friendName.setText(newFriendBean.getName());
+            ImageLoader.getInstance().displayImage(newFriendBean.getHeaderImageUrl(), vh.nf_friendImage, optionsImage);
+            vh.nf_friendInfo.setText("你好,很高兴认识你~!");
+
         } else {
             vh.nf_friendGroupImage.setVisibility(View.VISIBLE);
             vh.nf_receiveButton.setVisibility(View.VISIBLE);
             vh.nf_requestFrom.setVisibility(View.VISIBLE);
             vh.nf_receivedView.setVisibility(View.GONE);
+
+            ImageLoader.getInstance().displayImage(newFriendBean.getHeadImageUrl(), vh.nf_friendImage, optionsImage);
+            vh.nf_friendInfo.setText("你好,很高兴认识你~!");
 
             vh.nf_friendName.setText(newFriendBean.getUserName());
             vh.nf_requestFrom.setText("来源:刷脸加好友");

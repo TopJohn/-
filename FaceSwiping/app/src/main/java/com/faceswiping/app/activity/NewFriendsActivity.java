@@ -194,7 +194,7 @@ public class NewFriendsActivity extends BaseActivity implements ListItemClickHel
                     mDatas.remove(currentReceiveFriend);
                     NewFriendBean receivedFriend = new NewFriendBean();
                     receivedFriend.setName(currentReceiveFriend.getUserName());
-                    receivedFriend.setHeadImageUrl(currentReceiveFriend.getHeadImageUrl());
+                    receivedFriend.setHeaderImageUrl(currentReceiveFriend.getHeadImageUrl());
                     mDatas.add(0, receivedFriend);
                     adapter.notifyDataSetChanged();
                     AppContext.showToastShort(R.string.tip_receive_success);
