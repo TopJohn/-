@@ -12,6 +12,7 @@ import com.faceswiping.app.activity.MarkNewFriendsActivity;
 import com.faceswiping.app.activity.NewFriendsActivity;
 import com.faceswiping.app.activity.SecretSettingActivity;
 import com.faceswiping.app.activity.SendFriendRequestActivity;
+import com.faceswiping.app.activity.SettingActivity;
 
 /**
  * 界面帮助类
@@ -72,6 +73,13 @@ public class UIHelper {
 
     }
 
+    public static void showSettingActivity(Context context) {
+
+        Intent intent = new Intent(context, SettingActivity.class);
+        context.startActivity(intent);
+
+    }
+
     public static void showMarkNewFriendsActivity(String key, String url, Context context) {
 
         Intent intent = new Intent(context, MarkNewFriendsActivity.class);
@@ -81,10 +89,10 @@ public class UIHelper {
 
     }
 
-    public static void showSendFriendRequestActivity(String url,String key, int id, Context context) {
+    public static void showSendFriendRequestActivity(String url, String key, int id, Context context) {
 
         Intent intent = new Intent(context, SendFriendRequestActivity.class);
-        intent.putExtra("url",url);
+        intent.putExtra("url", url);
         intent.putExtra("key", key);
         intent.putExtra("id", id);
         context.startActivity(intent);

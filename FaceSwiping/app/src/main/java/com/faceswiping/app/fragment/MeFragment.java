@@ -170,6 +170,7 @@ public class MeFragment extends BaseFragment {
 
         mySecret.setOnClickListener(this);
         fillUI();
+        mySetting.setOnClickListener(this);
 
     }
 
@@ -191,6 +192,12 @@ public class MeFragment extends BaseFragment {
             case R.id.fragment_me_mySecret:
 
                 UIHelper.showSecretSettingActivity(mainActivity);
+
+                break;
+
+            case R.id.fragment_me_mySetting:
+
+                UIHelper.showSettingActivity(mainActivity);
 
                 break;
 
@@ -223,7 +230,7 @@ public class MeFragment extends BaseFragment {
         user = AppContext.getInstance().getLoginUser();
         ImageLoader.getInstance().displayImage(user.getHeadImageUrl(), userImage, optionsImage);
         userName.setText(user.getNickName());
-        userDescribe.setText(user.getIntroduction());
+        //userDescribe.setText(user.getIntroduction());
 
 
     }

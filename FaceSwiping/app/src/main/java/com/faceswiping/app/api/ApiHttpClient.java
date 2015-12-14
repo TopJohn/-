@@ -17,11 +17,11 @@ import java.util.Locale;
 
 public class ApiHttpClient {
 
-//    public final static String HOST = "115.159.152.203:8080";
-//    private static String API_URL = "http://115.159.152.203:8080/%s";
+    public final static String HOST = "115.159.152.203:8080";
+    private static String API_URL = "http://115.159.152.203:8080/%s";
 
-    public final static String HOST = "172.20.10.4:8080";
-    private static String API_URL = "http://172.20.10.4:8080/%s";
+//    public final static String HOST = "172.20.10.4:8080";
+//    private static String API_URL = "http://172.20.10.4:8080/%s";
 
 //    public final static String HOST = "10.73.198.56:8080";
 //    private static String API_URL = "http://10.73.198.56:8080/%s";

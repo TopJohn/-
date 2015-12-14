@@ -78,7 +78,11 @@
             android:name=".activity.NewFriendsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.MarkNewFriendsActivity"
+        android:name=".activity.MarkNewFriendsActivity"
+        android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.SettingActivity"
             android:screenOrientation="portrait" />
 
         <!-- 个推配置 -->

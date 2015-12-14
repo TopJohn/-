@@ -1,7 +1,5 @@
 package com.faceswiping.app.bean;
 
-import com.faceswiping.app.util.StringUtils;
-
 import java.io.Serializable;
 
 /**
@@ -15,7 +13,7 @@ public class NewFriendBean implements Serializable {
 
     private String userName;
 
-    private String headImageUrl;
+    private String headerImageUrl;
 
     private String imageUrl;
 
@@ -44,11 +42,11 @@ public class NewFriendBean implements Serializable {
     }
 
     public String getHeadImageUrl() {
-        return headImageUrl;
+        return headerImageUrl;
     }
 
     public void setHeadImageUrl(String headImageUrl) {
-        this.headImageUrl = headImageUrl;
+        this.headerImageUrl = headImageUrl;
     }
 
     public String getImageUrl() {

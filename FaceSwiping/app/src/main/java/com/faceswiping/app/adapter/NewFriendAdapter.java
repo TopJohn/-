@@ -1,7 +1,6 @@
 package com.faceswiping.app.adapter;
 
 import android.graphics.Bitmap;
-import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,10 +10,9 @@ import android.widget.TextView;
 import com.faceswiping.app.R;
 import com.faceswiping.app.base.ListBaseAdapter;
 import com.faceswiping.app.bean.NewFriendBean;
-import com.faceswiping.app.fragment.ChatFragment;
+import com.faceswiping.app.interf.ListItemClickHelp;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
-import com.faceswiping.app.interf.*;
 import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 
 import butterknife.ButterKnife;
@@ -28,6 +26,9 @@ public class NewFriendAdapter extends ListBaseAdapter<NewFriendBean> {
     //是一些小图，放在内存中
     public static DisplayImageOptions optionsImage = new DisplayImageOptions
             .Builder()
+            .showImageOnLoading(R.drawable.boom)
+            .showImageForEmptyUri(R.drawable.boom)
+            .showImageOnFail(R.drawable.boom)
             .cacheInMemory(true)
             .cacheOnDisk(false)
             .considerExifParams(true)
@@ -85,6 +86,9 @@ public class NewFriendAdapter extends ListBaseAdapter<NewFriendBean> {
         }
 
         NewFriendBean newFriendBean = mDatas.get(position);
+
+        //System.out.println(newFriendBean.getHeadImageUrl());
+
         ImageLoader.getInstance().displayImage(newFriendBean.getHeadImageUrl(), vh.nf_friendImage, optionsImage);
         vh.nf_friendInfo.setText("你好,很高兴认识你~!");
 

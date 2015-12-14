@@ -353,11 +353,11 @@ public class AppContext extends BaseApplication {
                 if (user.getNickName() != null)
                     setProperty("user.name", user.getNickName());
 
-                System.out.println("user.secret"+getProperty("user.secret"));
+                System.out.println("user.secret" + getProperty("user.secret"));
 
-                System.out.println("user.certification"+getProperty("user.certification"));
+                System.out.println("user.certification" + getProperty("user.certification"));
 
-                System.out.println("user.certificationImageUrl"+getProperty("user.certificationImageUrl"));
+                System.out.println("user.certificationImageUrl" + getProperty("user.certificationImageUrl"));
 
 
             }
@@ -433,16 +433,14 @@ public class AppContext extends BaseApplication {
     /**
      * 用户注销
      */
-//    public void Logout() {
-//        cleanLoginInfo();
-//        ApiHttpClient.cleanCookie();
-//        this.cleanCookie();
-//        this.login = false;
-//        this.loginUid = 0;
-//
-//        Intent intent = new Intent(Constants.INTENT_ACTION_LOGOUT);
-//        sendBroadcast(intent);
-//    }
+    public void Logout() {
+        cleanLoginInfo();
+        ApiHttpClient.cleanCookie();
+        this.cleanCookie();
+        this.login = false;
+        this.loginUid = 0;
+
+    }
 
     /**
      * 清除保存的缓存

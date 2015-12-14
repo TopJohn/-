@@ -54,7 +54,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:gravity="center"
-                    tools:text="enjoy the which is unable to avoid"
+                    android:text="新型的社交方式从Face+开始"
                     android:textColor="#999999"
                     android:textSize="16sp" />
 
